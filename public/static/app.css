@@ -22,6 +22,7 @@ h1 {
   background-color: white;
   display: inline-block;
   text-align: left;
+  vertical-align: top;
 }
 .widget h1 {
   font-size: 32px;
@@ -51,10 +52,11 @@ h1 {
 }
 .search {
   width: 500px;
-  margin: 40px auto 0 auto;
+  margin: 20px;
   height: 128px;
   border-radius: 10px;
   text-align: center;
+  display: inline-block;
 }
 
 .search label {
@@ -62,7 +64,6 @@ h1 {
 }
 .search form {
   font-size: 12px;
-  margin: 0 auto;
   margin: 0 auto;
   padding: 0;
   width: 95%;
