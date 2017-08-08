@@ -10,13 +10,15 @@ function main() {
     form({ id: 'mainForm' }, input({ id: 'infoInput', type: 'url' }), button({ type: 'submit', id: 'goButton' }, 'Get Widget'))
   );
   document.body.appendChild($urlSpace);
-
   const $searchSpace = div(
     { class: 'card search' },
     label({ id: 'search' }, `Not sure? Search for a recipe suggestion here.`),
     form({ id: 'secondForm' }, input({ id: 'searchInput', type: 'text' }), button({ type: 'submit', id: 'searchButton' }, 'Search'))
   );
   document.body.appendChild($searchSpace);
+
+  const $holder = div({ id: 'holder' });
+  document.body.appendChild($holder);
 
   let $goButton = document.getElementById('goButton');
   $goButton.addEventListener('click', function(event) {
@@ -54,7 +56,8 @@ function widgetBuilder(url) {
       ul(pageObject.ingredients.map(key => li(key))),
       ul(pageObject.steps.map(key => li(key)))
     );
-    document.body.appendChild($myWidget);
+    let $wHolder = document.getElementById('holder');
+    $wHolder.prepend($myWidget);
   });
 }
 

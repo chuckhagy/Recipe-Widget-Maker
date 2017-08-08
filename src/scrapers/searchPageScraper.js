@@ -7,7 +7,8 @@ class SearchPageScraper {
   scrape(url) {
     return fetch(url).then(response => response.text()).then(text => {
       let myDoc = parser.parseFromString(text, 'text/html');
-      let topName = myDoc.getElementsByClassName('grid-col__h3')[2];
+      let randomSeed = Math.floor(Math.random() * 5) + 2;
+      let topName = myDoc.getElementsByClassName('grid-col__h3')[randomSeed];
       // console.log(topName.previousSibling);
       // console.log(topName.parentElement);
       let thisLink;
