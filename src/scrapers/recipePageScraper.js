@@ -18,12 +18,12 @@ class RecipePageScraper {
       if (myDoc.querySelector('.nutrientLine__item--amount')) {
         this.calories = myDoc.querySelector('.nutrientLine__item--amount').innerText;
       } else {
-        this.calores = 'n/a';
+        this.calores = 'N/A';
       }
       if (myDoc.querySelector('.photo-strip__items')) {
         this.photoLink = myDoc.querySelector('.photo-strip__items').children[1].src;
       } else {
-        this.photoLink = 'http://everythingfunny.org/wp-content/uploads/2012/05/google-search-fail.jpg';
+        this.photoLink = 'https://www.gumtree.com/static/1/resources/assets/rwd/images/orphans/a37b37d99e7cef805f354d47.noimage_thumbnail.png';
       }
       let allIngr = [...myDoc.querySelectorAll('.recipe-ingred_txt')];
       let allSteps = [...myDoc.querySelectorAll('.step')];
