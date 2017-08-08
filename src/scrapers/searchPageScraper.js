@@ -7,7 +7,7 @@ class SearchPageScraper {
   scrape(url) {
     return fetch(url).then(response => response.text()).then(text => {
       let myDoc = parser.parseFromString(text, 'text/html');
-      let randomSeed = Math.floor(Math.random() * 5) + 2;
+      let randomSeed = Math.floor(Math.random() * 4) + 2;
       let topName = myDoc.getElementsByClassName('grid-col__h3')[randomSeed];
       // console.log(topName.previousSibling);
       // console.log(topName.parentElement);
@@ -29,9 +29,7 @@ class SearchPageScraper {
     });
   }
 }
-module.exports = {
-  SearchPageScraper
-};
+module.exports = SearchPageScraper;
 
 //container
 //if fail, try next starting at 1

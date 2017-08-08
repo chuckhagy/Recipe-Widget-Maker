@@ -1,6 +1,9 @@
-const { div, h1, h2, h3, button, ul, li, img, form, input, label } = require('elementx');
-const { RecipePageScraper } = require('./scrapers/recipePageScraper.js');
-const { SearchPageScraper } = require('./scrapers/searchPageScraper.js');
+/* global Materialize */
+
+const { div, button, form, input, label } = require('elementx');
+const RecipePageScraper = require('./scrapers/RecipePageScraper');
+const SearchPageScraper = require('./scrapers/SearchPageScraper');
+const RecipeWidget = require('./components/RecipeWidget');
 
 addEventListener('DOMContentLoaded', main());
 function main() {
@@ -30,8 +33,9 @@ function main() {
     } else {
       Materialize.toast('Feed me a link!', 4000);
     }
+    $space.value = '';
   });
-  //search below
+
   let $searchButton = document.getElementById('searchButton');
   $searchButton.addEventListener('click', function(event) {
     event.preventDefault();
@@ -42,22 +46,14 @@ function main() {
     } else {
       Materialize.toast('Give me a search term!', 4000);
     }
+    $searchSpace.value = '';
   });
 }
 
 function widgetBuilder(url) {
-  let pageObject = new RecipePageScraper();
-  pageObject.scrape(`http://cors-bypass-proxy.axiomlogic.com/${url}`).then(function() {
-    const $myWidget = div(
-      { class: 'card widget' },
-      img({ src: pageObject.photoLink }),
-      h1({ class: 'bold' }, pageObject.name),
-      h3({ id: 'timeCal' }, `Time: ${pageObject.timeTaken} - Calories: ${pageObject.calories}`),
-      ul(pageObject.ingredients.map(key => li(key))),
-      ul(pageObject.steps.map(key => li(key)))
-    );
-    let $wHolder = document.getElementById('holder');
-    $wHolder.prepend($myWidget);
+  let scraper = new RecipePageScraper();
+  scraper.scrape(`http://cors-bypass-proxy.axiomlogic.com/${url}`).then(function(recipe) {
+    document.getElementById('holder').prepend(RecipeWidget(recipe));
   });
 }
 

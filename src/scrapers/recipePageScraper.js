@@ -1,44 +1,50 @@
 let parser = new DOMParser();
 
 class RecipePageScraper {
-  constructor() {
-    this.name = '';
-    this.timeTaken = '';
-    this.ingredients = [];
-    this.steps = [];
-    this.photoLink = '';
-    this.calories = '';
-  }
   scrape(url) {
+    let recipe = {
+      name: '',
+      timeTaken: '',
+      ingredients: [],
+      steps: [],
+      photoLink: '',
+      calories: ''
+    };
     return fetch(url).then(response => response.text()).then(text => {
-      //console.log(url);
       let myDoc = parser.parseFromString(text, 'text/html');
-      this.name = myDoc.getElementsByTagName('h1')[0].innerText;
-      this.timeTaken = myDoc.querySelector('.ready-in-time').innerText;
-      if (myDoc.querySelector('.nutrientLine__item--amount')) {
-        this.calories = myDoc.querySelector('.nutrientLine__item--amount').innerText;
+      if (myDoc.getElementsByClassName('recipe-summary__h1')[0]) {
+        recipe.name = myDoc.getElementsByClassName('recipe-summary__h1')[0].innerText;
       } else {
-        this.calores = 'N/A';
+        recipe.name = 'VIDEO FORMAT';
+      }
+      if (myDoc.querySelector('.ready-in-time')) {
+        recipe.timeTaken = myDoc.querySelector('.ready-in-time').innerText;
+      } else {
+        recipe.timeTaken = 'N/A';
+      }
+      if (myDoc.querySelector('.nutrientLine__item--amount')) {
+        recipe.calories = myDoc.querySelector('.nutrientLine__item--amount').innerText;
+      } else {
+        recipe.calores = 'N/A';
       }
       if (myDoc.querySelector('.photo-strip__items')) {
-        this.photoLink = myDoc.querySelector('.photo-strip__items').children[1].src;
+        recipe.photoLink = myDoc.querySelector('.photo-strip__items').children[1].src;
       } else {
-        this.photoLink = 'https://www.gumtree.com/static/1/resources/assets/rwd/images/orphans/a37b37d99e7cef805f354d47.noimage_thumbnail.png';
+        recipe.photoLink = 'https://www.gumtree.com/static/1/resources/assets/rwd/images/orphans/a37b37d99e7cef805f354d47.noimage_thumbnail.png';
       }
       let allIngr = [...myDoc.querySelectorAll('.recipe-ingred_txt')];
       let allSteps = [...myDoc.querySelectorAll('.step')];
 
       for (let ingr of allIngr) {
-        this.ingredients.push(ingr.innerText);
+        recipe.ingredients.push(ingr.innerText);
       }
       for (let step of allSteps) {
-        this.steps.push(step.innerText);
+        recipe.steps.push(step.innerText);
       }
-      this.ingredients.splice(this.ingredients.length - 3);
-      this.steps.pop();
+      recipe.ingredients.splice(recipe.ingredients.length - 3);
+      recipe.steps.pop();
+      return recipe;
     });
   }
 }
-module.exports = {
-  RecipePageScraper
-};
+module.exports = RecipePageScraper;
