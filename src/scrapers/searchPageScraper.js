@@ -15,9 +15,12 @@ class SearchPageScraper {
       } else {
         thisLink = topName.parentElement.href;
       }
-      thisLink = thisLink.split('');
-      thisLink.splice(0, 7);
-      thisLink = thisLink.join('');
+      // thisLink = thisLink.split('');
+      // thisLink.splice(0, 7);
+      // thisLink = thisLink.join('');
+      thisLink = thisLink.replace(/^[hf]?[ti]?[tl]?[pe]?s?:?\/.+?\//, '');
+      console.log(thisLink);
+
       this.links.push('http://allrecipes.com' + thisLink);
     });
   }

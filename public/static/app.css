@@ -5,6 +5,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -12,67 +13,102 @@ h1 {
 }
 
 .widget {
-  border-radius: 50px;
+  border-radius: 10px;
   padding: 20px;
   font-size: 10px;
-  max-width: 450px;
+  max-width: 460px;
   margin: 2px 6px;
-  box-shadow: 2px 2px 5px grey;
-  border: 1px solid grey;
-  background-color: white;
+  box-shadow: 2px 2px 5px black;
   display: inline-block;
   text-align: left;
   vertical-align: top;
+  background-image: url('./img/paper.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .widget h1 {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 34px;
+  font-weight: 900;
+  font-family: "Coming Soon", Roboto, sans-serif;
 }
 .widget h2 {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Coming Soon", Roboto, sans-serif;
 }
-.widget h3 {
-  font-size: 14px;
-  font-weight: bold;
-}
+
 .widget ul > li {
   list-style-type: circle;
   margin-left: 20px;
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .widget img {
   float: right;
-  border-radius: 50%;
+  border-radius: 10px;
   width: 150px;
   height: 150px;
   margin: 10px;
   overflow: hidden;
-  box-shadow: 2px 2px 5px grey;
+  box-shadow: 2px 2px 4px grey;
 }
 .search {
   width: 500px;
-  margin: 20px;
-  height: 128px;
+  margin: 10px;
   border-radius: 10px;
   text-align: center;
   display: inline-block;
+  background-image: url('./img/paper.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 5px black;
+  padding: 15px;
 }
 
 .search label {
   font-size: 18px;
+  color: rgb(32, 32, 32);
+  font-weight: bold;
+  font-family: "Coming Soon", Roboto, sans-serif;
+  padding-top: 10px;
 }
-.search form {
-  font-size: 12px;
-  margin: 0 auto;
-  padding: 0;
-  width: 95%;
+#searchInput {
+  font-size: 16px;
+  margin: 8px;
+  padding: 3px;
+  width: 80%;
+  height: 20px;
+}
+#infoInput {
+  font-size: 16px;
+  margin: 8px;
+  padding: 3px;
+  width: 80%;
+  height: 20px;
+}
+.search button {
+  border: 1px solid grey;
+  border-radius: 7px;
+  width: 100px;
+  font-weight: 900;
+  padding: 4px;
+  background-color: lightgrey;
+  font-size: 14px;
+  color: rgb(45, 45, 45);
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+  transition: width 0.5s ease;
+  font-family: "Coming Soon", Roboto, sans-serif;
+}
+.search button:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: 104px;
 }
 .carousel {
   height: 100px;
   margin: 0;
-  overflow: hidden;
-  border-top: 1px solid black;
+  /*overflow: hidden;*/
+  border-top: 1px solid grey;
   z-index: 99;
 }

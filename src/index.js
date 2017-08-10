@@ -8,13 +8,13 @@ const RecipeWidget = require('./components/RecipeWidget');
 addEventListener('DOMContentLoaded', main());
 function main() {
   const $urlSpace = div(
-    { class: 'card search' },
+    { class: 'search' },
     label({ id: 'search' }, `Give me your link!`),
     form({ id: 'mainForm' }, input({ id: 'infoInput', type: 'url' }), button({ type: 'submit', id: 'goButton' }, 'Get Widget'))
   );
   document.body.appendChild($urlSpace);
   const $searchSpace = div(
-    { class: 'card search' },
+    { class: 'search' },
     label({ id: 'search' }, `Not sure? Search for a recipe suggestion here.`),
     form({ id: 'secondForm' }, input({ id: 'searchInput', type: 'text' }), button({ type: 'submit', id: 'searchButton' }, 'Search'))
   );
@@ -60,7 +60,7 @@ function widgetBuilder(url) {
 }
 
 function searchBuilder(search) {
-  let listObject = new SearchPageScraper(); //new type of scraper
+  let listObject = new SearchPageScraper();
   let searchURL = 'http://allrecipes.com/search/results/?wt=' + search.split(' ').join('%') + '&sort=re';
   listObject.scrape(`${searchURL}`).then(function() {
     widgetBuilder(listObject.links[0]);

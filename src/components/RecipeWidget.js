@@ -2,7 +2,7 @@ const { div, h1, h2, ul, li, img } = require('elementx');
 
 module.exports = function Widget(recipe) {
   return div(
-    { class: 'card widget' },
+    { class: 'widget' },
     img({ src: recipe.photoLink }),
     h1({ class: 'bold' }, recipe.name),
     h2(`Time: ${recipe.timeTaken}`),
@@ -16,7 +16,7 @@ module.exports = function Widget(recipe) {
           div(
             {
               style:
-                'text-align: center; font-size: 12px; font-weight: bold; border: 1px solid black; padding: 80px 10px 35px 10px; background-color: lightblue;'
+                'text-align: center; font-size: 14px; font-weight: 500; border: 1px solid grey; padding: 80px 10px 35px 10px; background-color: white; box-shadow: 1px 1px 4px grey'
             },
             ingredient
           )
