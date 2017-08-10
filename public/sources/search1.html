@@ -1,0 +1,2743 @@
+﻿
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search - Allrecipes.com</title>
+        <meta property="og:title" content="Search" />
+
+    <meta property="og:site_name" content="Allrecipes" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="robots" content="noodp,noydir" />
+
+    
+
+        <link id="canonicalUrl" rel="canonical" href="http://allrecipes.com/search/results/" />
+        <meta property="og:url" content="http://allrecipes.com/search/results/" />
+
+
+    <link href='http://css01.media-allrecipes.com/assets/deployables/v-1.85.0.166/main-css.bundled.Css' rel='stylesheet'/>
+    <link href='http://css01.media-allrecipes.com/assets/deployables/v-1.85.0.166/recipe-print-css.bundled.Css' rel='stylesheet'/>
+    
+
+                <link rel="next" href="http://allrecipes.com/search/results/?wt=chicken&sort=re&page=2"/>
+            <meta property="fb:app_id" content="66102450266" />
+    <meta property="fb:pages" content="71158748377" />
+
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"55db0cb698","applicationID":"49611473","transactionName":"YwABYUUDXUIABRZbCVpKIllbEFZSCBYHQTFRBxBcQwccYgQHEFEOdwoNQUUNX10EFExgA0cQD0FESho=","queueTime":0,"applicationTime":276,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQ4OVVdaGwcJUlBTAwYE"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(19),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(20),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&&(t(12),t(11),"addEventListener"in window&&t(6),s.xhrWrappable&&t(13),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){C++,M=y.hash,this[u]=b.now()}function o(){C--,y.hash!==M&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(9),x=t(10),E=t(8),O=t(6),R=t(12),P=t(7),T=t(13),S=t("ee"),N=S.get("tracer");t(14),b.features.spa=!0;var M,j=w[v],C=0;S.on(u,r),S.on(p,r),S.on(d,o),S.on(h,o),S.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),P.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),a(T,"send-xhr"+c),a(S,"xhr-resolved"),a(S,"xhr-done"),a(P,m+c),a(P,m+"-done"),E.on("pushState-end",i),E.on("replaceState-end",i),j("hashchange",i,!0),j("load",i,!0),j("popstate",function(){i(0,C>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(22)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(22)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(22)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(22),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(22)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(22)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(22)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new l(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],14:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(15),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(18),l=t(17),m=window.XMLHttpRequest;a.features.xhr=!0,t(13),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],15:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],16:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(19),c=t(20),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],17:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],18:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],19:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],20:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],21:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],22:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(20),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(19),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(19),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1044.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(16),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(21)},{}]},{},["loader",2,14,5,3,4]);</script>
+
+    <!-- Begin comScore Tag - Part 1 -->
+    <script>
+        var _comscore = _comscore || [];
+        _comscore.push({ c1: "2", c2: "6036305" });
+        (function() {
+            var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+            s.async = true;
+            s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+            el.parentNode.insertBefore(s, el);
+        })();
+    </script>
+    <!-- End comScore Tag Part 1-->
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="/apple-touch-icon-180x180-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/apple-touch-icon-152x152-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/apple-touch-icon-120x120-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/apple-touch-icon-76x76-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/apple-touch-icon-60x60-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/apple-touch-icon-precomposed.png">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+
+    <!-- Maxymiser script start -->
+    <script type="text/javascript"
+            src="//service.maxymiser.net/cdn/allrecipes/js/mmcore.js"></script>
+    <!-- Maxymiser script end -->
+
+            <script src="https://karma.mdpcdn.com/service/js-min/karma.header.js" async></script>
+
+    <script src="//assets.adobedtm.com/1c2ad567a53f27e563c4dc2c278a904b84dc5fde/satelliteLib-a07d47e4668bf3c3fa98aff5b2fc6d3f1d0981a3.js"></script>
+    <script src='http://js01.media-allrecipes.com/assets/deployables/v-1.85.0.166/main-top.bundled.js' ></script>
+        <meta name="correlationId" content="559a3da2-3c8f-4d53-b6a4-118a63b2a4af"/>
+</head>
+
+
+<!-- ARLOG SERVER: RD0003FF96451D LOCAL_IP: 10.255.21.7 MERCH_KEY: MerchData_22_1_0_0_***_51_68 -->
+<body ng-app="allrecipes" data-scoby-impression='{"id": "", "eventType": "Allrecipes.SearchResults.PageView", "eventCategory": "Page.View", "value": {"user": {"loginStatus":"no","visitorType":"anonymous"}}}'>
+<a id="top"></a>
+    <a href="/new-this-month/" class="newThisMonth" rel="nofollow">New this month</a>
+    <!-- Begin comScore Tag - Part 2 -->
+    <noscript>
+        <img src="http://b.scorecardresearch.com/p?c1=2&c2=6036305&cv=2.0&cj=1" />
+    </noscript>
+    <!-- End comScore Tag - Part 2 -->
+    <div class="slider-container" global-ui-events>
+        
+    <div id="div-opa__pushdown-wrapper" class="ad-non-mobile-only" style="display:none;">
+        
+        <div class="opa__pushdown" id="ad-pushdown-placeholder"></div>  
+    </div>
+
+<div class="site-content">
+
+    <header class="header new-nav">
+        <section class="magazine-bar">
+    <ul class="magazine-bar__social">
+        <li>Follow us on:</li>
+        <li><a href="http://pinterest.com/allrecipes/" target="_blank" class="pinterest" aria-label="Pinterest" title="Pinterest"><span class="svg-icon--social--pinterest svg-icon--social--pinterest-dims"></span></a></li>
+        <li><a href="https://www.facebook.com/allrecipes" target="_blank" class="facebook" aria-label="Facebook" title="Facebook"><span class="svg-icon--social--facebook svg-icon--social--facebook-dims"></span></a></li>
+        <li><a href="http://instagram.com/allrecipes" target="_blank" class="instagram" aria-label="Instagram" title="Instagram"><span class="svg-icon--social--instagram svg-icon--social--instagram-dims"></span></a></li>
+        <li><a href="https://twitter.com/Allrecipes" target="_blank" class="twitter" aria-label="Twitter" title="Twitter"><span class="svg-icon--social--twitter svg-icon--social--twitter-dims"></span></a></li>
+    </ul>
+            <a class="magazine-bar__link" href="http://armagazine.com/upper-nav" target="_blank">Get the Allrecipes magazine <span>just $7.99</span></a>
+
+    
+    
+</section>
+        
+<section ng-controller="ar_controllers_top_nav" ng-init="init()">
+    <ul class="ar-nav-section">
+        <li class="ar-logo-tab">
+            <a href="/">
+                <div class="ar-logo" ng-click="setAnalyticsCookie('ARlogo')">
+<img alt="Allrecipes" height="36" src="http://images.media-allrecipes.com/ar-images/ARlogo.svg" width="96" />                </div>
+            </a>
+        </li>
+
+        <li class="browse-recipes">
+            <a href id="navmenu_recipes" class="recipes-txt {active:topBrowseRecipePanel_showing}" popup-trigger="topBrowseRecipePanel"><span>BROWSE</span><span class="icon--chevron-down"></span></a>
+        </li>
+        <li class="search-tab" ng-controller="ar_controllers_search">
+            <div class="nav-search">
+                <input id="searchText" type="text" placeholder="Find a recipe" ng-model="search.keywords" ng-keypress="isEnterKey($event) && performSearch()">
+                <button class="btn-basic--small search-button" ng-click="performSearch()">
+                    <span class="icon svg-icon--top-nav-bar--search-magnify svg-icon--top-nav-bar--search-magnify-dims"></span>
+                </button>
+                <div popup-trigger="topNavSearchMenu" id="ingredientSearch" class="ingredient-searchtxt" ar-event-focus="click" ar-event-focus-id="setFocus-keywordSearch">Ingredient Search</div>
+            </div>
+        </li>
+
+        <li class="social-notification" popup-trigger="notifications" ng-class="{active: notifications_showing}">
+            <div class="socialNotification" ng-controller="ar_controllers_notifications" ng-Click="setNotificationsViewed()" ng-cloak>
+                <span class="svg-icon--top-nav-bar--nav-bell svg-icon--top-nav-bar--nav-bell-dims"></span>
+                <span class="notification-count" ng-show="displayCount" ng-bind="notificationCount"></span>
+            </div>
+        </li>
+        
+        <li class="nav-favorites" ng-click="setAnalyticsCookie('favorites')">
+            <a href="/cook/my/favorites/">
+                <span class="svg-icon--top-nav-bar--grey-heart svg-icon--top-nav-bar--grey-heart-dims"></span>
+            </a>
+        </li>
+
+            <li class="nav-profile anonymous-user">
+                <a href="/account/authenticationwelcome/">
+                    <div class="login-state">
+                        <div class="img-profile icon svg-icon--top-nav-bar--userhead svg-icon--top-nav-bar--userhead-dims" ng-click="setAnalyticsCookie('profile|profile')"></div>
+                        <span class="username icon-user--default" id="offCanvasDisplayName" ng-click="setAnalyticsCookie('create profile|sign up')">Create a profile</span>
+                        
+                    </div>
+                </a>
+            </li>
+        <li ng-class="{active:topNavSearchMenu_showing}" class="small-screen search-phone--landscape">
+            <a href popup-trigger="topNavSearchMenu" ar-event-focus="click" ar-event-focus-id="setFocus-keywordSearch">
+                <div class="nav-search">
+                    <span><img alt="search" height="23" src="http://images.media-allrecipes.com/ar-images/icons/NavSearchIcon.svg" width="23" /></span>
+                </div>
+            </a>
+        </li>
+
+        <li class="small-screen profile-phone--landscape" ng-class="{active:topNavProfileMenu_showing}" popup-trigger="topNavProfileMenu">
+            <a href>
+                <div class="login-state">
+                    <div class="img-profile icon svg-icon--top-nav-bar--userhead svg-icon--top-nav-bar--userhead-dims"></div>
+                </div>
+            </a>
+
+        </li>
+        <li class="hamburger-tab" ng-class="{active: topNavHamburgerMenu_showing}" popup-trigger="topNavHamburgerMenu">
+            <a href>
+                <div class="hamburger-nav">
+                    <span class="browse-recipes-iconbar"></span>
+                    <span class="browse-recipes-iconbar"></span>
+                    <span class="browse-recipes-iconbar"></span>
+                </div>
+            </a>
+        </li>
+    </ul>
+
+    <social-notification popup-panel="notifications" ng-cloak></social-notification>
+
+    <div class="nav-tab nav-tab__search ng-hide" popup-panel="topNavSearchMenu" ng-cloak>
+        
+
+
+
+<form>
+    <div data-ng-controller="ar_controllers_search">
+        <span class="icon--close" title="Close Ingredient Search" hideWhenClicked></span>
+        <div class="input-wrap--home">
+            <span class="search-spyglass"><img alt="Allrecipes" height="23" src="http://images.media-allrecipes.com/ar-images/icons/NavSearchIcon.svg" width="23" /></span>
+            <input id="searchText" type="text" placeholder="Keywords" ng-model="search.keywords" class="setFocus-keywordSearch">
+        </div>
+
+        
+
+        <div class="input-wrap--home ingredients" 
+            ar-assign-scrollable-classes="{ outermostWrapper: 'ingredients', clippingFrame: 'ingredient-clipping-frame', draggableElement: 'ingredient-scroller' }">    
+
+            <div class="ingredient-clipping-frame">
+                <ul class="ingredient-scroller"
+                    ng-mousedown="mouseDown($event)" ng-mouseup="mouseUp($event)"
+                    ar-touchstart="touchStart($event)" ar-touchend="touchEnd($event)" unselectable="on" onselectstart="return false;">
+
+                    <li ng-repeat="ingredient in search.ingredientsInclude">
+						<span>
+							<span ng-bind="::ingredient"></span>
+							<span class="icon--x ignore-ar-touchstart ignore-ar-touchend" ng-click="removeIngredientInclude(ingredient, $event)" unsubscribe-global-click-handler>&#x2715;</span>
+						</span>
+                    </li>
+
+                </ul>
+                </div>
+
+            <div class="ingredient-add-exclude">
+                
+                <input id="includeIngText" type="text" ng-attr-placeholder="{{includeIngPlaceholderText}}" name="txtIncludeIng"
+                       ng-model="includeIngredient" ng-focus="hideAds();" ng-blur="showAds()"
+                       ng-keydown="(isBackspaceKey($event) && removeLastIngredientInclude($event)) || (isTabKey($event) && addIngredientInclude($event))" class="setFocus-includeIng">
+            </div>
+            <a class="btn-basic--small include" ng-click="addIngredientInclude($event)" ar-event-focus="click" ar-event-focus-id="setFocus-includeIng" ng-class="{ 'grayed-out': includeIngHitMax }"><span>+</span></a>
+
+        </div> 
+
+        
+
+        <div class="input-wrap--home ingredients"
+            ar-assign-scrollable-classes="{ outermostWrapper: 'ingredients', clippingFrame: 'ingredient-clipping-frame', draggableElement: 'ingredient-scroller' }">    
+
+            <div class="ingredient-clipping-frame">
+                <ul class="ingredient-scroller"
+                    ng-mousedown="mouseDown($event)" ng-mouseup="mouseUp($event)"
+                    ar-touchstart="touchStart($event)" ar-touchend="touchEnd($event)" unselectable="on" onselectstart="return false;">
+
+                    <li ng-repeat="ingredient in search.ingredientsExclude">
+                        <span class="exclude-item">
+							<span ng-bind="::ingredient"></span>
+                            <span class="icon--x ignore-ar-touchstart ignore-ar-touchend" ng-click="removeIngredientExclude(ingredient, $event)" unsubscribe-global-click-handler>&#x2715;</span>
+                        </span>
+                    </li>
+
+                </ul>
+                </div>
+
+            <div class="ingredient-add-exclude">    
+                <input id="excludeIngText" type="text" ng-attr-placeholder="{{excludeIngPlaceholderText}}" name="txtExcludeIng"
+                       ng-model="excludeIngredient" ng-focus="hideAds();" ng-blur="showAds()"
+                       ng-keydown="(isBackspaceKey($event) && removeLastIngredientExclude($event)) || (isTabKey($event) && addIngredientExclude($event))" class="setFocus-excludeIng">
+            </div>
+            <a class="btn-basic--small exclude" ng-click="addIngredientExclude($event)" ar-event-focus="click" ar-event-focus-id="setFocus-excludeIng" ng-class="{ 'grayed-out': excludeIngHitMax }"><span>&#8212;</span></a>
+
+        </div> 
+
+        <div class="nav-tab__buttons">
+            <button class="btn-basic--small btn-search" ng-click="performSearch()" ng-cloak>Go</button>
+        </div>
+    </div>
+    <ar-notification></ar-notification>
+</form>
+
+
+    </div>
+    <div popup-panel="topBrowseRecipePanel" class="browse-recipe-tab social ng-hide" ng-cloak id="topBrowseRecipePanel">
+
+
+
+<section class="hero-link  nav-tab__options recipe-nav-tab__options">
+    <div class="grid underline_hero_link">
+      
+        <ul class="browse-hubs">
+                <li class="browse-hubs__categories">
+                    <h3>
+                        Meal Type
+                    </h3><span class="icon--chevron-right"></span>
+
+                    <ul class="browse-hubs__subcategories">
+<li>
+                                <a href="/recipes/76/appetizers-and-snacks/" ng-click="setAnalyticsCookie('browse|appetizers \u0026 snacks')" title="Appetizers & Snacks Recipes">
+                                    Appetizers &amp; Snacks
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/78/breakfast-and-brunch/" ng-click="setAnalyticsCookie('browse|breakfast \u0026 brunch')" title="Breakfast & Brunch Recipes">
+                                    Breakfast &amp; Brunch
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/79/desserts/" ng-click="setAnalyticsCookie('browse|desserts')" title="Desserts Recipes">
+                                    Desserts
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/17562/dinner/" ng-click="setAnalyticsCookie('browse|dinner')" title="Dinner Recipes">
+                                    Dinner
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/77/drinks/" ng-click="setAnalyticsCookie('browse|drinks')" title="Drinks Recipes">
+                                    Drinks
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="browse-hubs__categories">
+                    <h3>
+                        Ingredient
+                    </h3><span class="icon--chevron-right"></span>
+
+                    <ul class="browse-hubs__subcategories">
+<li>
+                                <a href="/recipes/200/meat-and-poultry/beef/" ng-click="setAnalyticsCookie('browse|beef')" title="Beef Recipes">
+                                    Beef
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/201/meat-and-poultry/chicken/" ng-click="setAnalyticsCookie('browse|chicken')" title="Chicken Recipes">
+                                    Chicken
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/95/pasta-and-noodles/" ng-click="setAnalyticsCookie('browse|pasta')" title="Pasta Recipes">
+                                    Pasta
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/205/meat-and-poultry/pork/" ng-click="setAnalyticsCookie('browse|pork')" title="Pork Recipes">
+                                    Pork
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/416/seafood/fish/salmon/" ng-click="setAnalyticsCookie('browse|salmon')" title="Salmon Recipes">
+                                    Salmon
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="browse-hubs__categories">
+                    <h3>
+                        Diet &amp; Health
+                    </h3><span class="icon--chevron-right"></span>
+
+                    <ul class="browse-hubs__subcategories">
+<li>
+                                <a href="/recipes/739/healthy-recipes/diabetic/" ng-click="setAnalyticsCookie('browse|diabetic')" title="Diabetic Recipes">
+                                    Diabetic
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/741/healthy-recipes/gluten-free/" ng-click="setAnalyticsCookie('browse|gluten free')" title="Gluten Free Recipes">
+                                    Gluten Free
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/84/healthy-recipes/" ng-click="setAnalyticsCookie('browse|healthy')" title="Healthy Recipes">
+                                    Healthy
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/1232/healthy-recipes/low-calorie/" ng-click="setAnalyticsCookie('browse|low calorie')" title="Low Calorie Recipes">
+                                    Low Calorie
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/1231/healthy-recipes/low-fat/" ng-click="setAnalyticsCookie('browse|low fat')" title="Low Fat Recipes">
+                                    Low Fat
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="browse-hubs__categories">
+                    <h3>
+                        Seasonal
+                    </h3><span class="icon--chevron-right"></span>
+
+                    <ul class="browse-hubs__subcategories">
+<li>
+                                <a href="http://allrecipes.com/recipes/1640/holidays-and-events/labor-day/" ng-click="setAnalyticsCookie('browse|labor day')" title="Labor Day Recipes">
+                                    Labor Day
+                                </a>
+                            </li>
+<li>
+                                <a href="http://allrecipes.com/recipes/11985/everyday-cooking/family-friendly/back-to-school/" ng-click="setAnalyticsCookie('browse|back to school')" title="Back To School Recipes">
+                                    Back To School
+                                </a>
+                            </li>
+<li>
+                                <a href="http://allrecipes.com/recipes/196/holidays-and-events/rosh-hashanah/" ng-click="setAnalyticsCookie('browse|rosh hashanah')" title="Rosh Hashanah Recipes">
+                                    Rosh Hashanah
+                                </a>
+                            </li>
+<li>
+                                <a href="http://allrecipes.com/recipes/1569/everyday-cooking/on-the-go/tailgating/" ng-click="setAnalyticsCookie('browse|tailgating')" title="Tailgating Recipes">
+                                    Tailgating
+                                </a>
+                            </li>
+<li>
+                                <a href="http://allrecipes.com/recipes/85/holidays-and-events/" ng-click="setAnalyticsCookie('browse|more holidays and events')" title="More Holidays and Events Recipes">
+                                    More Holidays and Events
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="browse-hubs__categories">
+                    <h3>
+                        Dish Type
+                    </h3><span class="icon--chevron-right"></span>
+
+                    <ul class="browse-hubs__subcategories">
+<li>
+                                <a href="/recipes/156/bread/" ng-click="setAnalyticsCookie('browse|breads')" title="Breads Recipes">
+                                    Breads
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/276/desserts/cakes/" ng-click="setAnalyticsCookie('browse|cakes')" title="Cakes Recipes">
+                                    Cakes
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/96/salad/" ng-click="setAnalyticsCookie('browse|salads')" title="Salads Recipes">
+                                    Salads
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/138/drinks/smoothies/" ng-click="setAnalyticsCookie('browse|smoothies')" title="Smoothies Recipes">
+                                    Smoothies
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/94/soups-stews-and-chili/" ng-click="setAnalyticsCookie('browse|soups, stews \u0026 chili')" title="Soups, Stews & Chili Recipes">
+                                    Soups, Stews &amp; Chili
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="browse-hubs__categories">
+                    <h3>
+                        Cooking Style
+                    </h3><span class="icon--chevron-right"></span>
+
+                    <ul class="browse-hubs__subcategories">
+<li>
+                                <a href="/recipes/88/bbq-grilling/" ng-click="setAnalyticsCookie('browse|bbq \u0026 grilling')" title="BBQ & Grilling Recipes">
+                                    BBQ &amp; Grilling
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/1947/everyday-cooking/quick-and-easy/" ng-click="setAnalyticsCookie('browse|quick \u0026 easy')" title="Quick & Easy Recipes">
+                                    Quick &amp; Easy
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/253/everyday-cooking/slow-cooker/" ng-click="setAnalyticsCookie('browse|slow cooker')" title="Slow Cooker Recipes">
+                                    Slow Cooker
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/1227/everyday-cooking/vegan/" ng-click="setAnalyticsCookie('browse|vegan')" title="Vegan Recipes">
+                                    Vegan
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/87/everyday-cooking/vegetarian/" ng-click="setAnalyticsCookie('browse|vegetarian')" title="Vegetarian Recipes">
+                                    Vegetarian
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="browse-hubs__categories">
+                    <h3>
+                        World Cuisine
+                    </h3><span class="icon--chevron-right"></span>
+
+                    <ul class="browse-hubs__subcategories">
+<li>
+                                <a href="/recipes/227/world-cuisine/asian/" ng-click="setAnalyticsCookie('browse|asian')" title="Asian Recipes">
+                                    Asian
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/233/world-cuisine/asian/indian/" ng-click="setAnalyticsCookie('browse|indian')" title="Indian Recipes">
+                                    Indian
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/723/world-cuisine/european/italian/" ng-click="setAnalyticsCookie('browse|italian')" title="Italian Recipes">
+                                    Italian
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/728/world-cuisine/latin-american/mexican/" ng-click="setAnalyticsCookie('browse|mexican')" title="Mexican Recipes">
+                                    Mexican
+                                </a>
+                            </li>
+<li>
+                                <a href="/recipes/15876/us-recipes/southern/" ng-click="setAnalyticsCookie('browse|southern')" title="Southern Recipes">
+                                    Southern
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+                <li class="browse-hubs__categories">
+                    <h3>
+                        Special Collections
+                    </h3><span class="icon--chevron-right"></span>
+
+                    <ul class="browse-hubs__subcategories">
+<li>
+                                <a href="http://allrecipes.com/recipes/17235/everyday-cooking/allrecipes-magazine-recipes/" ng-click="setAnalyticsCookie('browse|allrecipes magazine recipes')" title="Allrecipes Magazine Recipes">
+                                    Allrecipes Magazine Recipes
+                                </a>
+                            </li>
+<li>
+                                <a href="http://allrecipes.com/recipes/16791/everyday-cooking/special-collections/web-show-recipes/food-wishes/" ng-click="setAnalyticsCookie('browse|food wishes with chef john')" title="Food Wishes with Chef John Recipes">
+                                    Food Wishes with Chef John
+                                </a>
+                            </li>
+<li>
+                                <a href="http://dish.allrecipes.com/trusted-brand-pages/" ng-click="setAnalyticsCookie('browse|trusted brands')" title="Trusted Brands Recipes">
+                                    Trusted Brands
+                                </a>
+                            </li>
+                    </ul>
+                </li>
+        </ul>
+    </div>
+    <a class="recipe-hero-link__item__text" href="/recipes?grouping=all" ng-click="setAnalyticsCookie('browse|all categories')">All Categories</a>
+</section>
+
+
+    </div>
+    <!-- user sign in area -->
+    <div class="nav-tab social profile-nav ng-hide" popup-panel="topNavProfileMenu" ng-cloak>
+        <ul class="nav-tab__options">
+
+            <li ng-click="setAnalyticsCookie('profile|feed', 'menu')">
+                <a href="/account/authenticationwelcome/?loginReferrerUrl=/home" id="navmenu_myFeed">
+                    <span class="iconContainer"><span class="icon svg-icon--top-nav-bar--home svg-icon--top-nav-bar--home-dims"></span></span>
+                    <span class="itemText">Feed</span>
+                </a>
+            </li>
+            <li ng-click="setAnalyticsCookie('profile|profile', 'menu')">
+                <a href="/cook/my/" id="navmenu_myprofile">
+                    <span class="iconContainer"><span class="icon svg-icon--top-nav-bar--nav-profile svg-icon--top-nav-bar--nav-profile-dims"></span></span>
+                    <span class="itemText">Profile</span>
+                </a>
+            </li>
+            <li ng-click="setAnalyticsCookie('profile|favorites', 'menu')">
+                <a href="/cook/my/favorites/" rel="nofollow" id="navmenu_recipebox">
+                    <span class="iconContainer">
+                        <span class="icon svg-icon--top-nav-bar--grey-heart svg-icon--top-nav-bar--grey-heart-dims"></span>
+                    </span>
+                    <span class="itemText">Favorites</span>
+                </a>
+            </li>
+            <li ng-click="setAnalyticsCookie('profile|friends', 'menu')">
+                <a href="/cook/my/findfriends/" rel="nofollow" id="navmenu_findfriends">
+                    <span class="iconContainer">
+                        <span class="icon svg-icon--top-nav-bar--nav-friends svg-icon--top-nav-bar--nav-friends-dims"></span>
+                    </span>
+                    <span class="itemText">Friends</span>
+                </a>
+            </li>
+
+            <li ng-click="setAnalyticsCookie('profile|shopping list', 'menu')">
+                <a href="/my/shopping-lists/" rel="nofollow" id="navmenu_shoppinglist">
+                    <span class="iconContainer">
+                        <span class="icon svg-icon--top-nav-bar--grey-shopping svg-icon--top-nav-bar--grey-shopping-dims"></span>
+                    </span>
+                    <span class="itemText">Shopping List</span>
+                </a>
+            </li>
+            <li ng-click="setAnalyticsCookie('profile|settings', 'menu')">
+                <a href="/cook/my/account-settings/" rel="nofollow" id="navmenu_settings">
+                    <span class="iconContainer">
+                        <span class="icon svg-icon--top-nav-bar--nav-settings svg-icon--top-nav-bar--nav-settings-dims"></span>
+                    </span>
+                    <span class="itemText">Settings</span>
+                </a>
+            </li>
+
+        </ul>
+
+            <div class="signin" ng-click="setAnalyticsCookie('profile|sign in ', 'menu')">
+                <button onclick=" location.href='/account/authenticationwelcome/?actionsource=' +(typeof dataLayer !=='undefined' ? dataLayer.page.category.contentType : '' ) " class="btn-basic--large btn-gold" id="navmenu_signin_signup">Sign In <em>or</em> Sign Up</button>
+            </div>
+
+    </div>
+
+    <!-- hub links, etc. -->
+    <div class="nav-tab last ng-hide" popup-panel="topNavHamburgerMenu" ng-cloak>
+
+        <ul class="nav-tab__options">
+            <li class="underline_link">
+                <a href="" id="navmenu_recipes" popup-trigger="browseRecipePanel" ng-click="browseNav()">
+                    <span class="icon svg-icon--top-nav-bar--nav-browse-orange svg-icon--top-nav-bar--nav-browse-orange-dims" ng-class="{'active': isActive}"></span>
+                    <span class="icon svg-icon--top-nav-bar--nav-browse svg-icon--top-nav-bar--nav-browse-dims" ng-class="{'hidden': isActive}"></span>
+                    <span class="nav-link-text">Browse Recipes</span>
+                    <span class="icon-chevron" ng-class="{'active': isActive}"></span>
+                </a>
+            </li>
+
+
+
+
+           
+            <li id="mobile-nav-container" class="browse-div-option ng-hide" popup-panel="browseRecipePanel">
+
+
+
+
+<ul class="nav-tab__mobile-browse">
+
+        <li>
+            <input type="checkbox" id="Meal Type"><label for="Meal Type">Meal Type<span class="icon-chevron"></span></label>
+            <ul class="mobile-browse-subnav">
+<li><a href="/recipes/76/appetizers-and-snacks/" ng-click="setAnalyticsCookie('browse|appetizers \u0026 snacks')" title="Appetizers & Snacks Recipes">Appetizers &amp; Snacks</a></li>
+<li><a href="/recipes/78/breakfast-and-brunch/" ng-click="setAnalyticsCookie('browse|breakfast \u0026 brunch')" title="Breakfast & Brunch Recipes">Breakfast &amp; Brunch</a></li>
+<li><a href="/recipes/79/desserts/" ng-click="setAnalyticsCookie('browse|desserts')" title="Desserts Recipes">Desserts</a></li>
+<li><a href="/recipes/17562/dinner/" ng-click="setAnalyticsCookie('browse|dinner')" title="Dinner Recipes">Dinner</a></li>
+<li><a href="/recipes/77/drinks/" ng-click="setAnalyticsCookie('browse|drinks')" title="Drinks Recipes">Drinks</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="Ingredient"><label for="Ingredient">Ingredient<span class="icon-chevron"></span></label>
+            <ul class="mobile-browse-subnav">
+<li><a href="/recipes/200/meat-and-poultry/beef/" ng-click="setAnalyticsCookie('browse|beef')" title="Beef Recipes">Beef</a></li>
+<li><a href="/recipes/201/meat-and-poultry/chicken/" ng-click="setAnalyticsCookie('browse|chicken')" title="Chicken Recipes">Chicken</a></li>
+<li><a href="/recipes/95/pasta-and-noodles/" ng-click="setAnalyticsCookie('browse|pasta')" title="Pasta Recipes">Pasta</a></li>
+<li><a href="/recipes/205/meat-and-poultry/pork/" ng-click="setAnalyticsCookie('browse|pork')" title="Pork Recipes">Pork</a></li>
+<li><a href="/recipes/416/seafood/fish/salmon/" ng-click="setAnalyticsCookie('browse|salmon')" title="Salmon Recipes">Salmon</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="Diet &amp; Health"><label for="Diet &amp; Health">Diet &amp; Health<span class="icon-chevron"></span></label>
+            <ul class="mobile-browse-subnav">
+<li><a href="/recipes/739/healthy-recipes/diabetic/" ng-click="setAnalyticsCookie('browse|diabetic')" title="Diabetic Recipes">Diabetic</a></li>
+<li><a href="/recipes/741/healthy-recipes/gluten-free/" ng-click="setAnalyticsCookie('browse|gluten free')" title="Gluten Free Recipes">Gluten Free</a></li>
+<li><a href="/recipes/84/healthy-recipes/" ng-click="setAnalyticsCookie('browse|healthy')" title="Healthy Recipes">Healthy</a></li>
+<li><a href="/recipes/1232/healthy-recipes/low-calorie/" ng-click="setAnalyticsCookie('browse|low calorie')" title="Low Calorie Recipes">Low Calorie</a></li>
+<li><a href="/recipes/1231/healthy-recipes/low-fat/" ng-click="setAnalyticsCookie('browse|low fat')" title="Low Fat Recipes">Low Fat</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="Seasonal"><label for="Seasonal">Seasonal<span class="icon-chevron"></span></label>
+            <ul class="mobile-browse-subnav">
+<li><a href="http://allrecipes.com/recipes/1640/holidays-and-events/labor-day/" ng-click="setAnalyticsCookie('browse|labor day')" title="Labor Day Recipes">Labor Day</a></li>
+<li><a href="http://allrecipes.com/recipes/11985/everyday-cooking/family-friendly/back-to-school/" ng-click="setAnalyticsCookie('browse|back to school')" title="Back To School Recipes">Back To School</a></li>
+<li><a href="http://allrecipes.com/recipes/196/holidays-and-events/rosh-hashanah/" ng-click="setAnalyticsCookie('browse|rosh hashanah')" title="Rosh Hashanah Recipes">Rosh Hashanah</a></li>
+<li><a href="http://allrecipes.com/recipes/1569/everyday-cooking/on-the-go/tailgating/" ng-click="setAnalyticsCookie('browse|tailgating')" title="Tailgating Recipes">Tailgating</a></li>
+<li><a href="http://allrecipes.com/recipes/85/holidays-and-events/" ng-click="setAnalyticsCookie('browse|more holidays and events')" title="More Holidays and Events Recipes">More Holidays and Events</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="Dish Type"><label for="Dish Type">Dish Type<span class="icon-chevron"></span></label>
+            <ul class="mobile-browse-subnav">
+<li><a href="/recipes/156/bread/" ng-click="setAnalyticsCookie('browse|breads')" title="Breads Recipes">Breads</a></li>
+<li><a href="/recipes/276/desserts/cakes/" ng-click="setAnalyticsCookie('browse|cakes')" title="Cakes Recipes">Cakes</a></li>
+<li><a href="/recipes/96/salad/" ng-click="setAnalyticsCookie('browse|salads')" title="Salads Recipes">Salads</a></li>
+<li><a href="/recipes/138/drinks/smoothies/" ng-click="setAnalyticsCookie('browse|smoothies')" title="Smoothies Recipes">Smoothies</a></li>
+<li><a href="/recipes/94/soups-stews-and-chili/" ng-click="setAnalyticsCookie('browse|soups, stews \u0026 chili')" title="Soups, Stews & Chili Recipes">Soups, Stews &amp; Chili</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="Cooking Style"><label for="Cooking Style">Cooking Style<span class="icon-chevron"></span></label>
+            <ul class="mobile-browse-subnav">
+<li><a href="/recipes/88/bbq-grilling/" ng-click="setAnalyticsCookie('browse|bbq \u0026 grilling')" title="BBQ & Grilling Recipes">BBQ &amp; Grilling</a></li>
+<li><a href="/recipes/1947/everyday-cooking/quick-and-easy/" ng-click="setAnalyticsCookie('browse|quick \u0026 easy')" title="Quick & Easy Recipes">Quick &amp; Easy</a></li>
+<li><a href="/recipes/253/everyday-cooking/slow-cooker/" ng-click="setAnalyticsCookie('browse|slow cooker')" title="Slow Cooker Recipes">Slow Cooker</a></li>
+<li><a href="/recipes/1227/everyday-cooking/vegan/" ng-click="setAnalyticsCookie('browse|vegan')" title="Vegan Recipes">Vegan</a></li>
+<li><a href="/recipes/87/everyday-cooking/vegetarian/" ng-click="setAnalyticsCookie('browse|vegetarian')" title="Vegetarian Recipes">Vegetarian</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="World Cuisine"><label for="World Cuisine">World Cuisine<span class="icon-chevron"></span></label>
+            <ul class="mobile-browse-subnav">
+<li><a href="/recipes/227/world-cuisine/asian/" ng-click="setAnalyticsCookie('browse|asian')" title="Asian Recipes">Asian</a></li>
+<li><a href="/recipes/233/world-cuisine/asian/indian/" ng-click="setAnalyticsCookie('browse|indian')" title="Indian Recipes">Indian</a></li>
+<li><a href="/recipes/723/world-cuisine/european/italian/" ng-click="setAnalyticsCookie('browse|italian')" title="Italian Recipes">Italian</a></li>
+<li><a href="/recipes/728/world-cuisine/latin-american/mexican/" ng-click="setAnalyticsCookie('browse|mexican')" title="Mexican Recipes">Mexican</a></li>
+<li><a href="/recipes/15876/us-recipes/southern/" ng-click="setAnalyticsCookie('browse|southern')" title="Southern Recipes">Southern</a></li>
+            </ul>
+        </li>
+        <li>
+            <input type="checkbox" id="Special Collections"><label for="Special Collections">Special Collections<span class="icon-chevron"></span></label>
+            <ul class="mobile-browse-subnav">
+<li><a href="http://allrecipes.com/recipes/17235/everyday-cooking/allrecipes-magazine-recipes/" ng-click="setAnalyticsCookie('browse|allrecipes magazine recipes')" title="Allrecipes Magazine Recipes">Allrecipes Magazine Recipes</a></li>
+<li><a href="http://allrecipes.com/recipes/16791/everyday-cooking/special-collections/web-show-recipes/food-wishes/" ng-click="setAnalyticsCookie('browse|food wishes with chef john')" title="Food Wishes with Chef John Recipes">Food Wishes with Chef John</a></li>
+<li><a href="http://dish.allrecipes.com/trusted-brand-pages/" ng-click="setAnalyticsCookie('browse|trusted brands')" title="Trusted Brands Recipes">Trusted Brands</a></li>
+            </ul>
+        </li>
+</ul>
+
+<div class="see-all"><a href="/recipes/?grouping=all" target="_self">See all categories</a></div>
+
+
+            </li>
+
+            <li ng-click="setAnalyticsData('allrecipes magazine')">
+                <a href="http://armagazine.com/mobile-site" id="navmenu_magazine" target="_blank">
+                    <span class="icon svg-icon--top-nav-bar--nav-magazine svg-icon--top-nav-bar--nav-magazine-dims"></span>
+                    <span>Magazine - Just $7.99</span>
+                </a>
+            </li>
+
+            <li ng-click="setAnalyticsData('dinner spinner tv')">
+                <a href="http://allrecipes.com/DinnerSpinnerTV/" id="navmenu_tv">
+                    <span class="icon svg-icon--top-nav-bar--tv_icon svg-icon--top-nav-bar--tv_icon-dims"></span>
+                    <span>Dinner Spinner TV</span>
+                </a>
+            </li>
+
+            <li ng-click="setAnalyticsData('shop')">
+                <a href="http://shop.allrecipes.com/shop" id="navmenu_shop" target="_blank">
+                    <span class="icon svg-icon--top-nav-bar--nav-shop svg-icon--top-nav-bar--nav-shop-dims"></span>
+                    <span>Shop</span>
+                </a>
+            </li>
+            <li class="underline_link" ng-click="setAnalyticsData('cooking school')">
+                <a href="http://cookingschool.allrecipes.com/" id="navmenu_cooking_school" target="_blank">
+                    <span class="icon svg-icon--top-nav-bar--nav-cookingschool svg-icon--top-nav-bar--nav-cookingschool-dims"></span>
+                    <span>Cooking School</span>
+                </a>
+            </li>
+            <li ng-click="setAnalyticsData('articles and tips')">
+                <a href="http://dish.allrecipes.com/" target="_self" id="navmenu_articles">
+                    <span class="icon svg-icon--top-nav-bar--nav-article svg-icon--top-nav-bar--nav-article-dims"></span>
+                    <span>Articles & Tips</span>
+                </a>
+            </li>
+            <li ng-click="setAnalyticsCookie('newsletters')">
+                <a href="/cook/my/account-settings/#NewslettersSubscription" id="navmenu_social_gallery">
+                    <span class="icon svg-icon--top-nav-bar--nav-newsletters svg-icon--top-nav-bar--nav-newsletters-dims"></span>
+                    <span>Newsletters</span>
+                </a>
+            </li>
+            <li ng-click="setAnalyticsData('ask the community')">
+                <a href="http://dish.allrecipes.com/ask-the-community/" target="_self" id="navmenu_dish">
+                    <span class="icon svg-icon--top-nav-bar--nav-community svg-icon--top-nav-bar--nav-community-dims"></span>
+                    <span>Ask the Community</span>
+                </a>
+            </li>
+            <li class="underline_link" ng-click="setAnalyticsData('help')">
+                <a href="http://dish.allrecipes.com/customer-service/" id="navmenu_help" target="_self">
+                    <span class="icon svg-icon--top-nav-bar--nav-help svg-icon--top-nav-bar--nav-help-dims"></span>
+                    <span>Help</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://dish.allrecipes.com/allrecipes-jobs-2/" target="_self" ng-click="setAnalyticsData('jobs')">Jobs</a>
+                <a href="http://press.allrecipes.com/" ng-click="setAnalyticsData('newsroom')">Newsroom</a>
+            </li>
+
+        </ul>
+    </div>
+</section>
+
+    </header>
+    
+
+    <div class="container-content body-content">
+        
+
+
+<div id="ad-is-mobile"></div>
+<div id="ad-is-tablet"></div>
+<script>
+    (function($) {
+        
+        window.adConfiguration = {
+            "settings": {
+                "responsiveGridSlots": 3 }
+        };
+
+        
+        var mobileAdElem = document.getElementById('ad-is-mobile');
+        var isMobileAds = !(mobileAdElem.offsetWidth === 0 && mobileAdElem.offsetHeight === 0);
+
+
+        var isTablet = $ && $('#ad-is-tablet').css('display') === 'none';
+
+         
+        window.adService = {
+            isDesktop: window.innerWidth > 1024,
+            mobileAds: isMobileAds,
+            tabletAds: isTablet,
+            unitValues: {
+                channel: ""
+            },
+            pageTargetingValues: {
+                type: "search",
+                mention_category: "",
+                mention: "",
+                "status": "visitor",
+                "oid": "2CC4E750051D2174-600019100000BC94",
+                "fit": "0",
+                "id": "0",
+                "status": "visitor",
+                "oid": "2CC4E750051D2174-600019100000BC94",
+                "fit": "0",
+                "h": "0",
+                "kw": "chicken",
+                "skw": "chicken"
+            },
+            suppressInterstitial: true
+        };
+
+    })($ || window.jQuery);
+</script>
+
+
+<div id="searchResultsApp" class="search-results full-page" ng-controller="ar_controllers_search_results"
+     ng-init="init('chicken', 1, 20, [], [], 're', 10179)">
+    
+    <div class="results-container">
+        <p class="search-results__text" ng-click="openEditSearch()">
+            <span class="subtext">10179 recipe results for </span>&quot;chicken&quot;<span class="search-results__text--include"></span><span class="search-results__text--exclude"></span>
+        </p>
+        <span class="btns-one-small edit-search-button" popup-trigger="topNavSearchMenu">Edit search</span>
+    </div>
+    
+<form>
+	<h2 class="heading__h2 heading__h2--search-results" id="sort" ng-cloak>
+		<div>
+			<span ng-bind="headerLabelText"></span>
+
+			<a class="toggle-similar view" popup-trigger="recipeHubSort">
+				<span class="toggle-similar__view__text" ng-bind="sortTypeText ? sortTypeText : 'Sort'"></span><span class="icon--chevron-down"></span>
+			</a>
+
+
+			<span class="toggle-similar drop-down-label">Sort by:</span>
+		</div>
+
+		<ul class="sort-nav ng-hide" ng-cloak popup-panel="recipeHubSort">
+				<li>
+					<a ng-click="getSortedResults ('re')" ng-class="{'btn-grey': sortType == 're' }" hidewhenclicked>Relevance</a>
+				</li>
+				<li>
+					<a ng-click="getSortedResults ('p')" ng-class="{'btn-grey': sortType == 'p' }" hidewhenclicked>Popular</a>
+				</li>
+				<li>
+					<a ng-click="getSortedResults ('ra')" ng-class="{'btn-grey': sortType == 'ra' }" hidewhenclicked>Rating</a>
+				</li>
+		</ul>
+
+	</h2>
+
+   
+</form>
+
+    
+    <style type="text/css">
+        #grid[data-columns]::before {
+            visibility: hidden;
+        }
+
+        @media screen and (max-width:625px) {
+            #grid[data-columns]::before {
+                content: '1 .column.size-1of1';
+            }
+            .right-rail #grid[data-columns]::before {
+                content: '2 .column.size-1of2';
+            }
+        }
+
+        @media screen and (min-width: 626px) and (max-width: 767px) {
+            #grid[data-columns]::before {
+                content: '2 .column.size-1of2';
+            }
+            .right-rail #grid[data-columns]::before {
+                content: '4 .column.size-1of4';
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1023px) {
+            #grid[data-columns]::before {
+                content: '2 .column.size-1of2';
+            }
+        }
+
+        @media screen and (min-width: 1024px) and (max-width: 1269px) {
+            #grid[data-columns]::before {
+                content: '3 .column.size-1of3';
+            }
+        }
+
+        @media screen and (min-width: 1270px) {
+            #grid[data-columns]::before {
+                content: '4 .column.size-1of4';
+            }
+        }
+
+        /*For related recipes right rail*/
+        @media screen and (min-width: 960px) {
+            .right-rail #grid[data-columns]::before {
+                content: '2 .column.size-1of2';
+            }
+        }
+    </style>
+
+    
+    <section id='grid' data-columns class='grid salvattore-grid grid-fixed'>
+
+
+
+    <article class="grid-col--fixed-tiles hub-card">
+        <a href="/recipes/201" data-click-id="cardslot 1" data-internal-referrer-link="hubcard" target="_self">
+            <ul class="hub-card__image-wrap">
+                <li><img class="grid-col__hub-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/images/50470.jpg" alt="Chicken Recipes" title="Chicken Recipes" src="http://images.media-allrecipes.com/images/50470.jpg"></li>
+                <li class="grid-col__hub-image--sm">
+                    
+                    <img src="http://images.media-allrecipes.com/userphotos/250x250/03/33/25/3332559.jpg">
+                    <img src="http://images.media-allrecipes.com/userphotos/250x250/00/66/59/665982.jpg">
+                    <img src="http://images.media-allrecipes.com/userphotos/250x250/00/67/06/670665.jpg">
+                </li>
+            </ul>
+            <span class="grid-col__header-text">Popular Category</span>
+            <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+                Chicken Recipes
+            </h3>
+            <div class="grid-col__ratings">
+                <div class="hub-card__description">Find recipes for fried chicken, chicken breast, grilled chicken, chicken wings, and more! Allrecipes has more than 5,430 kitchen-approved chicken recipes.</div>
+            </div>
+            <ul class="hub-card__stats" ng-cloak>
+                <li><span><format-large-number number="5535"></format-large-number></span> recipes</li>
+                
+                 
+                    <li>
+                        <span>, </span><span>
+                            <format-large-number number="491"></format-large-number>
+                            videos
+                        </span>
+                    </li>
+            </ul>
+        </a>
+    </article>
+
+
+
+
+
+
+<article id="dfp_container" data-ad-container-masonry-autocollapse style="text-align: center;" class="grid-col--fixed-tiles gridad">
+    <div class="ad-search-grid">
+        <div id="ad-recipe-grid-responsive-1" style="margin: 0 auto;">
+            <div id="div-gpt-square-fixed-1" data-tier="1"></div>
+            <div id="div-gpt-mob-square-fixed-1" data-tier="1"></div>
+        </div>
+        <span class="advertisement">ADVERTISEMENT</span>
+    </div>
+</article>
+
+
+<article class="grid-col--fixed-tiles">
+        <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3865/DFP_1x1_impression_tracker&amp;sz=1x1&amp;t=adpartner%3Dallrecipesmagazine_earned_impression&amp;c=1450fa6a-0659-4989-a3f0-d3693ae62ab5"/>
+    <ar-save-item class='favorite' data-id="26317" data-type="'Recipe'" data-name="&quot;Chicken Pot Pie IX&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/04/53/57/4535759.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='26317'></taste-pref-overlay>
+
+
+    <a href="/recipe/26317/chicken-pot-pie-ix/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 2' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/04/53/57/4535759.jpg" alt="Chicken Pot Pie IX Recipe and Video - A delicious chicken pot pie made from scratch with carrots, peas, and celery for a comfort food classic." title="Chicken Pot Pie IX Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Chicken Pot Pie IX
+                <div class="grid-col__video">
+                    <a href="/video/2567/chicken-pot-pie-ix/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 2'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/26317/chicken-pot-pie-ix/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 2'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.80999994277954 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="7748"></format-large-number></span>
+
+            <div class="rec-card__description">A delicious chicken pot pie made from scratch with carrots, peas, and celery for a comfort food classic.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/257438/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 2'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> Robbie Rice</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="400"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="112"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="76"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="8669" data-type="'Recipe'" data-name="&quot;Chicken Cordon Bleu II&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/37/85/378540.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='8669'></taste-pref-overlay>
+
+
+    <a href="/recipe/8669/chicken-cordon-bleu-ii/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 3' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/37/85/378540.jpg" alt="Chicken Cordon Bleu II Recipe and Video - This is a standard recipe for Cordon Bleu, featuring stuffed chicken swimming in a creamy wine sauce." title="Chicken Cordon Bleu II Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Chicken Cordon Bleu II
+                <div class="grid-col__video">
+                    <a href="/video/954/chicken-cordon-bleu-ii/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 3'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/8669/chicken-cordon-bleu-ii/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 3'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.78000020980835 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="4362"></format-large-number></span>
+
+            <div class="rec-card__description">This is a standard recipe for Cordon Bleu, featuring stuffed chicken swimming in a creamy wine sauce.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/61092/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 3'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> Behr</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="20"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="19"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="3"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="56927" data-type="'Recipe'" data-name="&quot;Delicious Ham and Potato Soup&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/96/26/962656.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='56927'></taste-pref-overlay>
+
+
+    <a href="/recipe/56927/delicious-ham-and-potato-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 4' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/96/26/962656.jpg" alt="Delicious Ham and Potato Soup Recipe and Video - A hearty, easy soup that's ready in 45 minutes. Perfect for using up leftover ham." title="Delicious Ham and Potato Soup Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Delicious Ham and Potato Soup
+                <div class="grid-col__video">
+                    <a href="/video/994/delicious-ham-and-potato-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 4'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/56927/delicious-ham-and-potato-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 4'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.84000015258789 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="9593"></format-large-number></span>
+
+            <div class="rec-card__description">A hearty, easy soup that&#39;s ready in 45 minutes. Perfect for using up leftover ham.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/746864/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 4'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> ELLIE11</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="30"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="1"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="0"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+        <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3865/DFP_1x1_impression_tracker&amp;sz=1x1&amp;t=adpartner%3Dallrecipesmagazine_earned_impression&amp;c=a309a20f-8852-4c16-bacb-261ecaf5ab46"/>
+    <ar-save-item class='favorite' data-id="223042" data-type="'Recipe'" data-name="&quot;Chicken Parmesan&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/01/44/50/1445049.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='223042'></taste-pref-overlay>
+
+
+    <a href="/recipe/223042/chicken-parmesan/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 5' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/01/44/50/1445049.jpg" alt="Chicken Parmesan Recipe and Video - A classic Italian dish prepared with tomato sauce and mozzarella, with a few additions by Chef John. Sure to impress your friends and family!" title="Chicken Parmesan Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Chicken Parmesan
+                <div class="grid-col__video">
+                    <a href="/video/352/chicken-parmesan/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 5'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/223042/chicken-parmesan/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 5'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.82000017166138 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="1317"></format-large-number></span>
+
+            <div class="rec-card__description">A classic Italian dish prepared with tomato sauce and mozzarella, with a few additions by Chef John. Sure to impress your friends and family!</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/foodwisheswithchefjohn/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 5'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/userphotos/50x50/2267470.jpg"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> Chef John</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="45994"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="448"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="309"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+    <article class="grid-col--fixed-tiles video-card">
+        <a href="/video/311/easy-chicken-parmesan-bake/" data-click-id="cardslot 6" data-internal-referrer-link="videocard" class="ng-isolate-scope">
+
+
+            <img class="grid-col__rec-image video-card__image" data-lazy-load data-original-src="http://brightcove.vo.llnwd.net/d21/unsecured/media/1033249144001/1033249144001_2647729868001_video-still-for-video-2647669620001.jpg?pubId=1033249144001" alt="Easy Chicken Parmesan Bake" title="Easy Chicken Parmesan Bake"  src="http://images.media-allrecipes.com/ar/spacer.gif"/>
+
+            <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+                Easy Chicken Parmesan Bake
+            </h3>
+            <div class="rec-card__description">This could be the fastest, easiest chicken Parmesan you’ll ever make. </div>
+        </a>
+        <a href="/video/311/easy-chicken-parmesan-bake/" data-click-id="cardslot 6" data-internal-referrer-link="videocard" class="ng-isolate-scope" target="_self">
+            <div class="rec-card__description video-card__count"><format-large-number number="477181"></format-large-number> plays</div>
+        </a>
+        <div class="profile profile--recipe-card">
+                    <a href="/cook/foodwisheswithchefjohn/" data-click-id="cardslot 6">
+                        <ul class="cook-details">
+                            <li>
+                                <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/userphotos/50x50/2267470.jpg" />
+                            </li>
+                            <li>
+                                <h4><span>Posted by </span> Chef John </h4>
+                                <ul class="cook-details__followers followers-count">
+                                    <li>
+                                        <span class="icon--cook-card-follower" title="Followers"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="45999"></format-large-number></span>
+                                    </li>
+                                </ul>
+                                <ul class="cook-details__favorites favorites-count">
+                                    <li>
+                                        <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="448"></format-large-number></span>
+                                    </li>
+                                </ul>
+                                <ul class="cook-details__recipes-made recipes-made-count">
+                                    <li>
+                                        <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="309"></format-large-number></span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </a>
+        </div>
+    </article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <div class="article-card">
+        <a href="/HowTo/Roasting-Chicken/Detail.aspx" data-click-id="cardslot 7" data-internal-referrer-link="articlecard" target="_self">
+            <div>
+                <img class="article-card-image" data-original-src="http://images.media-allrecipes.com/images/6936.jpg" alt="Article Title" title="Roasting Chicken" src="http://images.media-allrecipes.com/images/6936.jpg" />
+                <div class="article-card-overlay">
+                    Articles & Tips
+                </div>
+            </div>
+            <div>
+                <h3>
+Roasting Chicken
+                </h3>
+                <p class="article-author">By <span>Allrecipes Staff</span></p>
+            </div>
+            <div>
+                <span class="article-card-description">You can make the perfect roast chicken! We&#39;ll tell you the kitchen tools, spices, and cooking tips you&#39;ll need. <span class="article-card-read-more">Read more.</span></span>
+            </div>
+        </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="16700" data-type="'Recipe'" data-name="&quot;Salsa Chicken&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/04/47/80/4478087.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='16700'></taste-pref-overlay>
+
+
+    <a href="/recipe/16700/salsa-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 8' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/04/47/80/4478087.jpg" alt="Salsa Chicken Recipe and Video - Chicken seasoned with taco seasoning and topped with salsa, then baked." title="Salsa Chicken Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Salsa Chicken
+                <div class="grid-col__video">
+                    <a href="/video/4280/salsa-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 8'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/16700/salsa-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 8'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.61999988555908 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="3070"></format-large-number></span>
+
+            <div class="rec-card__description">Chicken seasoned with taco seasoning and topped with salsa, then baked.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <ul class="cook-details">
+                    <li>
+                        <h4 class="no-profile"><span>Recipe by </span>Faye</h4>
+                    </li>
+                </ul>
+    </div>
+</article>
+
+
+<article id="dfp_container" data-ad-container-masonry-autocollapse style="text-align: center;" class="grid-col--fixed-tiles gridad">
+    <div class="ad-search-grid">
+        <div id="ad-recipe-grid-responsive-2" style="margin: 0 auto;">
+            <div id="div-gpt-square-fixed-2" data-tier="3"></div>
+            <div id="div-gpt-mob-square-fixed-2" data-tier="3"></div>
+        </div>
+        <span class="advertisement">ADVERTISEMENT</span>
+    </div>
+</article>
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="68461" data-type="'Recipe'" data-name="&quot;Buffalo Chicken Dip&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/03/09/56/3095600.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='68461'></taste-pref-overlay>
+
+
+    <a href="/recipe/68461/buffalo-chicken-dip/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 9' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/03/09/56/3095600.jpg" alt="Buffalo Chicken Dip Recipe and Video - Five simple ingredients in your slow cooker make this creamy, cheesy, zesty hot dip that tastes just like Buffalo chicken wings." title="Buffalo Chicken Dip Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Buffalo Chicken Dip
+                <div class="grid-col__video">
+                    <a href="/video/679/buffalo-chicken-dip/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 9'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/68461/buffalo-chicken-dip/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 9'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.69999980926514 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="3342"></format-large-number></span>
+
+            <div class="rec-card__description">Five simple ingredients in your slow cooker make this creamy, cheesy, zesty hot dip that tastes just like Buffalo chicken wings.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/613040/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 9'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/userphotos/50x50/7971.jpg"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> NUNPUNCH</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="106"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="44"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="16"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="64513" data-type="'Recipe'" data-name="&quot;Rosemary Ranch Chicken Kabobs&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/64/20/642001.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='64513'></taste-pref-overlay>
+
+
+    <a href="/recipe/64513/rosemary-ranch-chicken-kabobs/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 10' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/64/20/642001.jpg" alt="Rosemary Ranch Chicken Kabobs Recipe and Video - This rosemary ranch chicken recipe is so delicious, tender, and juicy the chicken will melt in your mouth." title="Rosemary Ranch Chicken Kabobs Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Rosemary Ranch Chicken Kabobs
+                <div class="grid-col__video">
+                    <a href="/video/2983/rosemary-ranch-chicken-kabobs/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 10'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/64513/rosemary-ranch-chicken-kabobs/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 10'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.71000003814697 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="2896"></format-large-number></span>
+
+            <div class="rec-card__description">This rosemary ranch chicken recipe is so delicious, tender, and juicy the chicken will melt in your mouth.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/885695/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 10'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> Theresa Spencer</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="30"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="0"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="0"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+        <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3865/DFP_1x1_impression_tracker&amp;sz=1x1&amp;t=adpartner%3Dallrecipesmagazine_earned_impression&amp;c=6aa637a9-6f75-4364-8d70-2d65b547cd64"/>
+    <ar-save-item class='favorite' data-id="24087" data-type="'Recipe'" data-name="&quot;Restaurant-Style Buffalo Chicken Wings&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/44/52/445293.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='24087'></taste-pref-overlay>
+
+
+    <a href="/recipe/24087/restaurant-style-buffalo-chicken-wings/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 11' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/44/52/445293.jpg" alt="Restaurant-Style Buffalo Chicken Wings Recipe and Video - Restaurant-style buffalo chicken wings can be prepared in the comforts of your own home with a few simple ingredients." title="Restaurant-Style Buffalo Chicken Wings Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Restaurant-Style Buffalo Chicken Wings
+                <div class="grid-col__video">
+                    <a href="/video/877/restaurant-style-buffalo-chicken-wings/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 11'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/24087/restaurant-style-buffalo-chicken-wings/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 11'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.78000020980835 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="2409"></format-large-number></span>
+
+            <div class="rec-card__description">Restaurant-style buffalo chicken wings can be prepared in the comforts of your own home with a few simple ingredients.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <ul class="cook-details">
+                    <li>
+                        <h4 class="no-profile"><span>Recipe by </span>Kelly</h4>
+                    </li>
+                </ul>
+    </div>
+</article>
+
+
+    <article class="grid-col--fixed-tiles video-card">
+        <a href="/video/4939/honey-garlic-slow-cooker-chicken-thighs/" data-click-id="cardslot 12" data-internal-referrer-link="videocard" class="ng-isolate-scope">
+
+
+            <img class="grid-col__rec-image video-card__image" data-lazy-load data-original-src="http://brightcove.vo.llnwd.net/v1/unsecured/media/1033249144001/201411/2337/1033249144001_3892337837001_video-still-for-video-3884779639001.jpg?pubId=1033249144001" alt="Honey-Garlic Slow Cooker Chicken Thighs" title="Honey-Garlic Slow Cooker Chicken Thighs"  src="http://images.media-allrecipes.com/ar/spacer.gif"/>
+
+            <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+                Honey-Garlic Slow Cooker Chicken Thighs
+            </h3>
+            <div class="rec-card__description">Easy recipe for tender, sweet and savory chicken thighs.</div>
+        </a>
+        <a href="/video/4939/honey-garlic-slow-cooker-chicken-thighs/" data-click-id="cardslot 12" data-internal-referrer-link="videocard" class="ng-isolate-scope" target="_self">
+            <div class="rec-card__description video-card__count"><format-large-number number="412689"></format-large-number> plays</div>
+        </a>
+        <div class="profile profile--recipe-card">
+                    <a href="/cook/2792648/" data-click-id="cardslot 12">
+                        <ul class="cook-details">
+                            <li>
+                                <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png" />
+                            </li>
+                            <li>
+                                <h4><span>Posted by </span> Myrna </h4>
+                                <ul class="cook-details__followers followers-count">
+                                    <li>
+                                        <span class="icon--cook-card-follower" title="Followers"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="46"></format-large-number></span>
+                                    </li>
+                                </ul>
+                                <ul class="cook-details__favorites favorites-count">
+                                    <li>
+                                        <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="192"></format-large-number></span>
+                                    </li>
+                                </ul>
+                                <ul class="cook-details__recipes-made recipes-made-count">
+                                    <li>
+                                        <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="0"></format-large-number></span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </a>
+        </div>
+    </article>
+
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="9023" data-type="'Recipe'" data-name="&quot;Baked Teriyaki Chicken&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/38/48/384820.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='9023'></taste-pref-overlay>
+
+
+    <a href="/recipe/9023/baked-teriyaki-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 13' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/38/48/384820.jpg" alt="Baked Teriyaki Chicken Recipe and Video - A spicy, homemade teriyaki of soy sauce, cider vinegar, ginger and garlic enlivens chicken thighs or pieces. Easy to double for a large group." title="Baked Teriyaki Chicken Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Baked Teriyaki Chicken
+                <div class="grid-col__video">
+                    <a href="/video/1070/baked-teriyaki-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 13'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/9023/baked-teriyaki-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 13'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.65000009536743 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="4671"></format-large-number></span>
+
+            <div class="rec-card__description">A spicy, homemade teriyaki of soy sauce, cider vinegar, ginger and garlic enlivens chicken thighs or pieces. Easy to double for a large group.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <ul class="cook-details">
+                    <li>
+                        <h4 class="no-profile"><span>Recipe by </span>Marian Collins</h4>
+                    </li>
+                </ul>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="83557" data-type="'Recipe'" data-name="&quot;Juicy Roasted Chicken&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/38/92/389250.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='83557'></taste-pref-overlay>
+
+
+    <a href="/recipe/83557/juicy-roasted-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 14' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/38/92/389250.jpg" alt="Juicy Roasted Chicken Recipe and Video - A couple of simple ingredients with no-fuss prep make a roast chicken that many swear is the juiciest they've ever eaten." title="Juicy Roasted Chicken Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Juicy Roasted Chicken
+                <div class="grid-col__video">
+                    <a href="/video/851/juicy-roasted-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 14'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/83557/juicy-roasted-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 14'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.71999979019165 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="2201"></format-large-number></span>
+
+            <div class="rec-card__description">A couple of simple ingredients with no-fuss prep make a roast chicken that many swear is the juiciest they&#39;ve ever eaten.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/1240569/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 14'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/userphotos/50x50/69582.jpg"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> ROBINROCKINGBIRD</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="93"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="29"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="2"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+<article id="dfp_container" data-ad-container-masonry-autocollapse style="text-align: center;" class="grid-col--fixed-tiles gridad">
+    <div class="ad-search-grid">
+        <div id="ad-recipe-grid-responsive-3" style="margin: 0 auto;">
+            <div id="div-gpt-square-fixed-3" data-tier="4"></div>
+            <div id="div-gpt-mob-square-fixed-3" data-tier="4"></div>
+        </div>
+        <span class="advertisement">ADVERTISEMENT</span>
+    </div>
+</article>
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="19304" data-type="'Recipe'" data-name="&quot;Chicken Milano&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/00/37/3741.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='19304'></taste-pref-overlay>
+
+
+    <a href="/recipe/19304/chicken-milano/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 15' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/00/37/3741.jpg" alt="Chicken Milano Recipe and Video - A delicious pasta and chicken dish with garlic, sun-dried tomatoes and fresh basil. Serve with crusty bread." title="Chicken Milano Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Chicken Milano
+                <div class="grid-col__video">
+                    <a href="/video/1261/chicken-milano/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 15'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/19304/chicken-milano/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 15'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.63000011444092 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="1650"></format-large-number></span>
+
+            <div class="rec-card__description">A delicious pasta and chicken dish with garlic, sun-dried tomatoes and fresh basil. Serve with crusty bread.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/39277/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 15'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> MARBALET</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="129"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="472"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="4"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="18775" data-type="'Recipe'" data-name="&quot;Aussie Chicken&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/70/88/708833.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='18775'></taste-pref-overlay>
+
+
+    <a href="/recipe/18775/aussie-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 16' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/70/88/708833.jpg" alt="Aussie Chicken Recipe and Video - This recipe is very similar to a chicken dish served at a local well-known restaurant.  A friend of mine was kind enough to share it. It includes chicken breasts topped with mushrooms, bacon and cheese cooked in a honey-mustard sauce." title="Aussie Chicken Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Aussie Chicken
+                <div class="grid-col__video">
+                    <a href="/video/4864/aussie-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 16'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/18775/aussie-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 16'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.6100001335144 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="2086"></format-large-number></span>
+
+            <div class="rec-card__description">This recipe is very similar to a chicken dish served at a local well-known restaurant.  A friend of mine was kind enough to share it. It includes chicken breasts topped with mushrooms, bacon and cheese cooked in a honey-mustard sauce.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/4319/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 16'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> beckie</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="6"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="0"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="20"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+    <article class="grid-col--fixed-tiles video-card">
+        <a href="/video/173/how-to-make-roasted-chicken-breasts/" data-click-id="cardslot 17" data-internal-referrer-link="videocard" class="ng-isolate-scope">
+
+
+            <img class="grid-col__rec-image video-card__image" data-lazy-load data-original-src="http://brightcove.vo.llnwd.net/e1/pd/1033249144001/1033249144001_1336078709001_RoastedChickenBreasts-550x309.jpg?pubId=1033249144001" alt="How to Make Roasted Chicken Breasts" title="How to Make Roasted Chicken Breasts"  src="http://images.media-allrecipes.com/ar/spacer.gif"/>
+
+            <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+                How to Make Roasted Chicken Breasts
+            </h3>
+            <div class="rec-card__description">A crunchy chop salad gives roasted chicken contrasts of taste, color, &amp; texture.</div>
+        </a>
+        <a href="/video/173/how-to-make-roasted-chicken-breasts/" data-click-id="cardslot 17" data-internal-referrer-link="videocard" class="ng-isolate-scope" target="_self">
+            <div class="rec-card__description video-card__count"><format-large-number number="403554"></format-large-number> plays</div>
+        </a>
+        <div class="profile profile--recipe-card">
+                    <a href="/cook/allrecipes/" data-click-id="cardslot 17">
+                        <ul class="cook-details">
+                            <li>
+                                <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/userphotos/50x50/2400622.jpg" />
+                            </li>
+                            <li>
+                                <h4><span>Posted by </span> Allrecipes </h4>
+                                <ul class="cook-details__followers followers-count">
+                                    <li>
+                                        <span class="icon--cook-card-follower" title="Followers"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="3177040"></format-large-number></span>
+                                    </li>
+                                </ul>
+                                <ul class="cook-details__favorites favorites-count">
+                                    <li>
+                                        <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="1305"></format-large-number></span>
+                                    </li>
+                                </ul>
+                                <ul class="cook-details__recipes-made recipes-made-count">
+                                    <li>
+                                        <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="62"></format-large-number></span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </a>
+        </div>
+    </article>
+
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="70343" data-type="'Recipe'" data-name="&quot;Slow Cooker Chicken Taco Soup&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/03/70/65/3706561.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='70343'></taste-pref-overlay>
+
+
+    <a href="/recipe/70343/slow-cooker-chicken-taco-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 18' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/03/70/65/3706561.jpg" alt="Slow Cooker Chicken Taco Soup Recipe and Video - A hearty combination of beans, corn, tomatoes, and taco seasonings, slow cooked with shredded chicken. Top each bowl with Cheddar cheese, sour cream, and crushed tortilla chips. Made mostly of canned ingredients, this tasty soup lets the slow cooker do the work so you don't have to!" title="Slow Cooker Chicken Taco Soup Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Slow Cooker Chicken Taco Soup
+                <div class="grid-col__video">
+                    <a href="/video/931/slow-cooker-chicken-taco-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 18'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/70343/slow-cooker-chicken-taco-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 18'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.67000007629395 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="4741"></format-large-number></span>
+
+            <div class="rec-card__description">A hearty combination of beans, corn, tomatoes, and taco seasonings, slow cooked with shredded chicken. Top each bowl with Cheddar cheese, sour cream, and crushed tortilla chips. Made mostly of canned ingredients, this tasty soup lets the slow cooker do the work so you don&#39;t have to!</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/842730/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 18'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/userphotos/50x50/153172.jpg"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> RaisinKane aka Patti</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="233"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="345"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="89"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="23874" data-type="'Recipe'" data-name="&quot;Catherine&#39;s Spicy Chicken Soup&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/69/83/698391.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='23874'></taste-pref-overlay>
+
+
+    <a href="/recipe/23874/catherines-spicy-chicken-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 19' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/69/83/698391.jpg" alt="Catherine's Spicy Chicken Soup Recipe and Video - A shredded chicken soup flavored with garlic, onion powder, salsa, tomatoes, tomato soup, chili powder, corn, beans and sour cream." title="Catherine's Spicy Chicken Soup Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Catherine's Spicy Chicken Soup
+                <div class="grid-col__video">
+                    <a href="/video/1336/catherines-spicy-chicken-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 19'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/23874/catherines-spicy-chicken-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 19'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.75 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="1583"></format-large-number></span>
+
+            <div class="rec-card__description">A shredded chicken soup flavored with garlic, onion powder, salsa, tomatoes, tomato soup, chili powder, corn, beans and sour cream.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/177251/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 19'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> AUNTTAF</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="5"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="0"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="0"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="8652" data-type="'Recipe'" data-name="&quot;Garlic Chicken&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/39/44/394412.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='8652'></taste-pref-overlay>
+
+
+    <a href="/recipe/8652/garlic-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 20' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/39/44/394412.jpg" alt="Garlic Chicken Recipe and Video - Submerge chicken in a strong garlic-olive oil infusion, then coat with Parmesan and bread crumbs for a quick and sublime baked chicken." title="Garlic Chicken Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Garlic Chicken
+                <div class="grid-col__video">
+                    <a href="/video/1073/garlic-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 20'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/8652/garlic-chicken/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 20'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.55999994277954 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="3879"></format-large-number></span>
+
+            <div class="rec-card__description">Submerge chicken in a strong garlic-olive oil infusion, then coat with Parmesan and bread crumbs for a quick and sublime baked chicken.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <ul class="cook-details">
+                    <li>
+                        <h4 class="no-profile"><span>Recipe by </span>Carol</h4>
+                    </li>
+                </ul>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="23852" data-type="'Recipe'" data-name="&quot;Creamy Chicken and Wild Rice Soup&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/35/51/355161.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='23852'></taste-pref-overlay>
+
+
+    <a href="/recipe/23852/creamy-chicken-and-wild-rice-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 21' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/35/51/355161.jpg" alt="Creamy Chicken and Wild Rice Soup Recipe and Video - Instant wild rice is cooked in chicken broth with shredded chicken, then combined with thickened cream for a quick soup." title="Creamy Chicken and Wild Rice Soup Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Creamy Chicken and Wild Rice Soup
+                <div class="grid-col__video">
+                    <a href="/video/1149/creamy-chicken-and-wild-rice-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 21'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/23852/creamy-chicken-and-wild-rice-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 21'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.76999998092651 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="1817"></format-large-number></span>
+
+            <div class="rec-card__description">Instant wild rice is cooked in chicken broth with shredded chicken, then combined with thickened cream for a quick soup.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <ul class="cook-details">
+                    <li>
+                        <h4 class="no-profile"><span>Recipe by </span>Stephanie G</h4>
+                    </li>
+                </ul>
+    </div>
+</article>
+
+
+    <article class="grid-col--fixed-tiles video-card">
+        <a href="/video/5340/simple-baked-chicken-breasts/" data-click-id="cardslot 22" data-internal-referrer-link="videocard" class="ng-isolate-scope">
+
+
+            <img class="grid-col__rec-image video-card__image" data-lazy-load data-original-src="http://brightcove.vo.llnwd.net/v1/unsecured/media/1033249144001/201512/2000/1033249144001_4640049578001_4611666620001-vs.jpg?pubId=1033249144001" alt="Simple Baked Chicken Breasts" title="Simple Baked Chicken Breasts"  src="http://images.media-allrecipes.com/ar/spacer.gif"/>
+
+            <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+                Simple Baked Chicken Breasts
+            </h3>
+            <div class="rec-card__description">Try these super easy, lightly seasoned and baked chicken breasts.</div>
+        </a>
+        <a href="/video/5340/simple-baked-chicken-breasts/" data-click-id="cardslot 22" data-internal-referrer-link="videocard" class="ng-isolate-scope" target="_self">
+            <div class="rec-card__description video-card__count"><format-large-number number="305679"></format-large-number> plays</div>
+        </a>
+        <div class="profile profile--recipe-card">
+                    <a href="/cook/alwayscookingupsomething/" data-click-id="cardslot 22">
+                        <ul class="cook-details">
+                            <li>
+                                <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/userphotos/50x50/768399.jpg" />
+                            </li>
+                            <li>
+                                <h4><span>Posted by </span> Always Cooking Up Something </h4>
+                                <ul class="cook-details__followers followers-count">
+                                    <li>
+                                        <span class="icon--cook-card-follower" title="Followers"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="149"></format-large-number></span>
+                                    </li>
+                                </ul>
+                                <ul class="cook-details__favorites favorites-count">
+                                    <li>
+                                        <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="713"></format-large-number></span>
+                                    </li>
+                                </ul>
+                                <ul class="cook-details__recipes-made recipes-made-count">
+                                    <li>
+                                        <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                        <span></span>
+                                    </li>
+                                    <li>
+                                        <span><format-large-number number="117"></format-large-number></span>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </a>
+        </div>
+    </article>
+
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="45954" data-type="'Recipe'" data-name="&quot;Roast Sticky Chicken-Rotisserie Style&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/04/64/46458.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='45954'></taste-pref-overlay>
+
+
+    <a href="/recipe/45954/roast-sticky-chicken-rotisserie-style/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 23' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/04/64/46458.jpg" alt="Roast Sticky Chicken-Rotisserie Style Recipe and Video - Ever wish you could get that restaurant-style rotisserie chicken at home? Well, with minimal preparation and about 5 hours' cooking time, you can!" title="Roast Sticky Chicken-Rotisserie Style Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Roast Sticky Chicken-Rotisserie Style
+                <div class="grid-col__video">
+                    <a href="/video/1356/roast-sticky-chicken-rotisserie-style/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 23'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/45954/roast-sticky-chicken-rotisserie-style/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 23'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.69000005722046 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="3344"></format-large-number></span>
+
+            <div class="rec-card__description">Ever wish you could get that restaurant-style rotisserie chicken at home? Well, with minimal preparation and about 5 hours&#39; cooking time, you can!</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <ul class="cook-details">
+                    <li>
+                        <h4 class="no-profile"><span>Recipe by </span>Sue Rogers</h4>
+                    </li>
+                </ul>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+        <img src="http://pubads.g.doubleclick.net/gampad/ad?iu=/3865/DFP_1x1_impression_tracker&amp;sz=1x1&amp;t=adpartner%3Dallrecipesmagazine_earned_impression&amp;c=be0ccb9e-4e5e-4ba9-905d-d4d7318a371b"/>
+    <ar-save-item class='favorite' data-id="89539" data-type="'Recipe'" data-name="&quot;Slow-Cooker Chicken Tortilla Soup&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/19/32/193211.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='89539'></taste-pref-overlay>
+
+
+    <a href="/recipe/89539/slow-cooker-chicken-tortilla-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 24' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/19/32/193211.jpg" alt="Slow-Cooker Chicken Tortilla Soup Recipe and Video - A quick, no-fuss version of chicken tortilla soup! All you do is put everything into the slow cooker, and turn it on. Then garnish with baked corn tortilla strips!" title="Slow-Cooker Chicken Tortilla Soup Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Slow-Cooker Chicken Tortilla Soup
+                <div class="grid-col__video">
+                    <a href="/video/881/slow-cooker-chicken-tortilla-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 24'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/89539/slow-cooker-chicken-tortilla-soup/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 24'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.67000007629395 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="3694"></format-large-number></span>
+
+            <div class="rec-card__description">A quick, no-fuss version of chicken tortilla soup! All you do is put everything into the slow cooker, and turn it on. Then garnish with baked corn tortilla strips!</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/1492087/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 24'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> Elena</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="7"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="1"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="0"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="8626" data-type="'Recipe'" data-name="&quot;Yummy Honey Chicken Kabobs&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/01/01/72/1017234.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='8626'></taste-pref-overlay>
+
+
+    <a href="/recipe/8626/yummy-honey-chicken-kabobs/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 25' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/01/01/72/1017234.jpg" alt="Yummy Honey Chicken Kabobs Recipe and Video - A marinade made with honey, soy sauce, pepper, and garlic puts a sweet coating on chicken pieces in this honey chicken shish kabob." title="Yummy Honey Chicken Kabobs Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Yummy Honey Chicken Kabobs
+                <div class="grid-col__video">
+                    <a href="/video/1263/yummy-honey-chicken-kabobs/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 25'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/8626/yummy-honey-chicken-kabobs/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 25'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.69000005722046 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/half-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="1861"></format-large-number></span>
+
+            <div class="rec-card__description">A marinade made with honey, soy sauce, pepper, and garlic puts a sweet coating on chicken pieces in this honey chicken shish kabob.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/93497/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 25'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> Ann Marie</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="10"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="9"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="2"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+
+<article class="grid-col--fixed-tiles">
+    <ar-save-item class='favorite' data-id="8584" data-type="'Recipe'" data-name="&quot;Holiday Chicken Salad&quot;" data-imageurl="'http://images.media-allrecipes.com/userphotos/250x250/00/70/86/708660.jpg'"></ar-save-item>
+    <taste-pref-overlay data-recipe-id='8584'></taste-pref-overlay>
+
+
+    <a href="/recipe/8584/holiday-chicken-salad/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 26' >
+
+        <img class="grid-col__rec-image" data-lazy-load data-original-src="http://images.media-allrecipes.com/userphotos/250x250/00/70/86/708660.jpg" alt="Holiday Chicken Salad Recipe and Video - Dried cranberries add a sweet tartness to chicken and vegetable salad.  Make a delightful sandwich filling, too." title="Holiday Chicken Salad Recipe and Video"  src="http://images.media-allrecipes.com/ar/spacer.gif" style="display: inline;" />
+
+        <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+            Holiday Chicken Salad
+                <div class="grid-col__video">
+                    <a href="/video/978/holiday-chicken-salad/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 26'><span class="icon--videoplay-small-white"></span></a>
+                </div>
+        </h3>
+    </a>
+    <a href="/recipe/8584/holiday-chicken-salad/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 26'>
+        <div class="grid-col__ratings">
+            <div class="rating-stars" data-scroll-to-anchor="reviews" data-ratingstars= 4.76000022888184 >
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+        <img height="16" width="16" src="http://images.media-allrecipes.com/ar-images/icons/rating-stars/full-star-2015.svg"  />
+</div>
+            <span class="grid-col__reviews"><format-large-number number="1188"></format-large-number></span>
+
+            <div class="rec-card__description">Dried cranberries add a sweet tartness to chicken and vegetable salad.  Make a delightful sandwich filling, too.</div>
+
+        </div>
+    </a>
+    <div class="profile profile--recipe-card">
+                <a href="/cook/5941/" data-internal-referrer-link='hub recipe' data-click-id='cardslot 26'>
+                    <ul class="cook-details">
+                        <li>
+                            <img class="img-profile elevate-cook-thumbnail" alt="profile image" src="http://images.media-allrecipes.com/mobile/allrecipes/images/icon-user-default_v2.png"/>
+                        </li>
+                        <li>
+                                    <h4><span>Recipe by</span> emmaxwell</h4>
+                            <ul class="cook-details__followers followers-count">
+                                <li>
+                                    <span class="icon--cook-card-follower" title="Followers"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="5"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__favorites favorites-count">
+                                <li>
+                                    <span class="icon--cook-card-favorite" title="Favorites"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="0"></format-large-number></span>
+                                </li>
+                            </ul>
+                            <ul class="cook-details__recipes-made recipes-made-count">
+                                <li>
+                                    <span class="icon--cook-card-made" title="Recipes Made"></span>
+                                    <span></span>
+                                </li>
+                                <li>
+                                    <span><format-large-number number="15"></format-large-number></span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </a>
+    </div>
+</article>
+
+
+    <article class="grid-col--fixed-tiles video-card">
+        <a href="/video/1145/baked-honey-mustard-chicken/" data-click-id="cardslot 27" data-internal-referrer-link="videocard" class="ng-isolate-scope">
+
+
+            <img class="grid-col__rec-image video-card__image" data-lazy-load data-original-src="http://brightcove.vo.llnwd.net/d21/unsecured/media/1033249144001/1033249144001_1777167790001_RM-honeybaekdchciken2.jpg?pubId=1033249144001" alt="Baked Honey Mustard Chicken" title="Baked Honey Mustard Chicken"  src="http://images.media-allrecipes.com/ar/spacer.gif"/>
+
+            <h3 class="grid-col__h3 grid-col__h3--recipe-grid">
+                Baked Honey Mustard Chicken
+            </h3>
+            <div class="rec-card__description">See how to make the perfect weeknight chicken recipe.</div>
+        </a>
+        <a href="/video/1145/baked-honey-mustard-chicken/" data-click-id="cardslot 27" data-internal-referrer-link="videocard" class="ng-isolate-scope" target="_self">
+            <div class="rec-card__description video-card__count"><format-large-number number="274361"></format-large-number> plays</div>
+        </a>
+        <div class="profile profile--recipe-card">
+                    <ul class="cook-details">
+                        <li>
+                            <h4 class="no-profile"><span>Recipe by </span>Mary Bane</h4>
+                        </li>
+                    </ul>
+        </div>
+    </article>
+
+</section>        <div ng-class="containerStyle">
+            <div class="center-buttons">
+                <ar-notification></ar-notification>
+                <button ng-click="disableMoreResultsButton || getMoreResults(true)" ng-disabled="disableMoreResultsButton" id="btnMoreResults" href="http://allrecipes.com/search/results/?wt=chicken&amp;sort=re&amp;page=2" class="btns-one-small" data-ng-hide="hideMoreResultsButton">More</button>
+            </div>
+        </div>
+
+
+<a href="https://www.magazine.store/order/?containerName=i72vtar22&amp;utm_source=allrecipes&amp;utm_medium=internal&amp;utm_campaign=i704truw551dfc" target="_blank">
+    <div class="ad-mag-homeBtm__footer">
+
+        <div class="ad-mag-homeBtm__img-wrap">
+            <img class="ad-mag-homeBtm__img" data-lazy-load data-original-src="http://images.media-allrecipes.com/images/75387.png" alt="Subscribe to Allrecipes Magazine" title="Allrecipes Magazine"  src="http://images.media-allrecipes.com/ar/spacer.gif"/>
+        </div>
+        <div class="ad-mag-homeBtm__text-wrap">
+            <h4>Allrecipes Magazine</h4>
+            <p>Cook 5-star dinners every time&#151;get a full year for just $7.99.</p>
+            <div id="btn" href="https://www.magazine.store/order/?containerName=i72vtar22&amp;utm_source=allrecipes&amp;utm_medium=internal&amp;utm_campaign=i704truw551dfc" class="btn-basic--small btn-orange">Subscribe</div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</a>        <div id="ad-featured-recipe-placeholder">
+
+        </div>
+        <a ar-infinite-scroll></a>
+
+</div>
+
+
+
+    </div>
+    <footer id="pageFooter" class="full-page">
+        
+<section masonry="" class="grid grid-fixed" preserve-order="" item-selector="article" >
+    <article class=" grid-col grid-col--tiles">
+
+        <ul class="social-sharing__icons">
+
+            <li><a id="footer_facebook" href="https://www.facebook.com/allrecipes" title="Facebook" target="_blank" class="ui-link"><img title="Facebook" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Facebook"></a></li>
+            <li><a id="footer_pinterest" href="http://pinterest.com/allrecipes/" title="Pinterest" target="_blank" class="ui-link"><img title="Pinterest" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Pinterest"></a></li>
+            <li><a id="footer_twitter" href="https://twitter.com/Allrecipes" title="Twitter" target="_blank" class="ui-link"><img id="ctl00_Image3" title="Twitter" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Twitter"></a></li>
+            <li><a id="footer_instagram" href="http://instagram.com/allrecipes" title="Instagram" target="_blank" class="ui-link"><img title="Instagram" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Instagram"></a></li>
+            <li><a id="footer_tumblr" href="http://allrecipes.tumblr.com/" title="Tumblr" target="_blank" class="ui-link"><img title="Tumblr" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Tumblr"></a></li>
+            <li><a id="footer_googleplus" href="https://plus.google.com/+allrecipes/" title="Google Plus" target="_blank" class="ui-link"><img title="Google Plus" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="Google Plus"></a></li>
+            <li><a id="footer_stumbleupon"href="http://www.stumbleupon.com/stumbler/Allrecipes" title="StumbleUpon" target="_blank" class="ui-link"><img title="StumbleUpon" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="StumbleUpon"></a></li>
+            <li><a id="footer_youtube" href="https://www.youtube.com/user/allrecipes" title="YouTube" target="_blank" class="ui-link"><img title="YouTube" src="http://images.allrecipes.com/ar-images/spacer.gif" alt="YouTube"></a></li>
+
+    
+        </ul>
+    </article>
+    <article class="grid-col grid-col--tiles">
+        <ul>
+            <li>About Us</li>
+            <li><a id="footer_newsroom" href="http://press.allrecipes.com/">Newsroom</a></li>
+            <li><a id="footer_jobs" href="http://dish.allrecipes.com/allrecipes-jobs/">Jobs at Allrecipes</a></li>
+        </ul>
+    </article>
+    <article class="grid-col grid-col--tiles footer_advertising">
+        <ul>
+            <li>Advertising</li>
+            <li><a id="footer_advertisewithus" class="" href="http://www.meredith.com/national-media/digital">Advertise with Us</a></li>
+            <li><a id="footer_womensnetwork" class="" href="http://www.meredith.com/marketing_solutions/interactive_media.html">Meredith Women's Network</a></li>
+        </ul>
+    </article> 
+    <article class="grid-col grid-col--tiles">
+        <ul>
+            <li>Support</li>
+            <li><a id="footer_sitemap" href="http://dish.allrecipes.com/faq-sitemap/">Site Map</a></li>
+            <li><a id="footer_contactus" href="http://dish.allrecipes.com/customer-service/contact-us-2/">Contact Us</a></li>
+            <li><a id="footer_customersupport" href="http://dish.allrecipes.com/customer-service/">Customer Support</a></li>           
+        </ul>   
+    </article>
+
+    <article class="grid-col grid-col--tiles" ng-controller="ar_controllers_footerLinks" data-siteurl="allrecipes.com">
+        <ul>
+            <li>Global Community</li>
+            <li>
+                <select id="country-selector" ng-options="site.name for site in arSites" ng-change="changeSite()" ng-model="selectedItem"><option style="display:none" value="">Select location</option></select>
+            </li>
+            <li>&copy; 2017 Allrecipes.com <br />All Rights Reserved </li>
+            <li><a id="footer_privacypolicy" href="http://www.meredith.com/legal/privacy" target="_blank">Privacy Policy Your California Rights</a></li>
+            <li><a id="footer_terms" href="http://www.meredith.com/legal/terms" target="_blank">Terms of Service</a></li>
+            <li><a id="footer_datapolicy" href="http://www.meredith.com/datapolicy.html" target="_blank">Data Policy</a></li>
+            <li>
+                <!--  Ghostery Inc tag  cid: 1333  pid: 282-->
+                <a id="_bapw-link" href="#" target="_blank"><span id="footer_adchoices"style="vertical-align:middle !important;padding-right:5px">AdChoices</span><img id="_bapw-icon" style="border:0 !important;display:inline !important;vertical-align:middle !important;padding-right:5px !important;" height="11" /></a>
+                <a id="footer_top_button" class="btns-one-small" data-scroll-to-anchor="top" data-show-on-scroll="700" ng-show="yTrigger == true" ng-cloak>Top</a>
+             </li>            
+            <script>(function () { var g = 282, i = 1333, a = false, h = document, j = h.getElementById("_bapw-link"), e = (h.location.protocol == "https:"), f = (e ? "https" : "http") + "://", c = f + (e ? "a248.e.akamai.net/betterad.download.akamai.com/91609" : "cdn.betrad.com") + "/pub/"; function b(k) { var d = new Image(); d.src = f + "l.betrad.com/pub/p.gif?pid=" + g + "&ocid=" + i + "&i" + k + "=1&r=" + Math.random() } h.getElementById("_bapw-icon").src = c + "icon1.png"; j.onmouseover = function () { if (/#$/.test(j.href)) { j.href = "http://info.evidon.com/pub_info/" + g + "?v=1" } }; j.onclick = function () { var k = window._bap_p_overrides; function d(n, q) { var o = h.getElementsByTagName("head")[0] || h.documentElement, m = a, l = h.createElement("script"); function p() { l.onload = l.onreadystatechange = null; o.removeChild(l); q() } l.src = n; l.onreadystatechange = function () { if (!m && (this.readyState == "loaded" || this.readyState == "complete")) { m = true; p() } }; l.onload = p; o.insertBefore(l, o.firstChild) } if (k && k.hasOwnProperty(g)) { if (k[g].new_window) { b("c"); return true } } this.onclick = "return " + a; d(f + "ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js", function () { d(c + "pub2.js", function () { BAPW.i(j, { pid: g, ocid: i }) }) }); return a }; b("i") }()); var _bap_p_overrides = _bap_p_overrides || {}; _bap_p_overrides[282] = { new_window: true };</script>
+         </ul>
+    </article>
+    <article class="grid-col grid-col--tiles">      
+        <ul>
+            <li>More Allrecipes</li>
+
+            <li><a id="footer_magazine" href="http://armagazine.com/mobile-footer">Allrecipes Magazine <span><span>&#8211;</span> Subscribe</span></a></li>
+            <li><a id="footer_apps" href="http://dish.allrecipes.com/mobile-apps">Allrecipes Apps</a></li>
+            <li><a id="footer_foodwishes" href="http://youtube.com/foodwishes">Food Wishes Videos</a></li>
+            <li><a id="footer_blog" href="http://press.allrecipes.com/blog/">The Allrecipes Blog</a></li>
+            
+        </ul>       
+    </article> 
+</section>  
+
+
+
+
+        <div data-ng-controller="ar_controllers_deferredAction" data-ng-init="wireupAdIntegrationListeners();executePostLoginEvents();">
+            <ar-notification></ar-notification>
+            <div data-loading-indicator></div>
+        </div>
+    </footer>
+</div>
+</div>
+
+
+    <div id='ad-footer' class="ad-footer--fixed">
+        <div id="div-gpt-mob-adhesive-banner-fixed" data-tier="1"></div>
+    </div>
+    
+    
+
+
+    <div id='div-gpt-oopSponsorship' data-tier="1"></div>
+
+<script type="text/javascript">
+            window.Toggles={"AdTest":false,"RecipePreferences":true,"AzureRelatedcontentRecipes":true,"RdpRightRailRecommendations":true,"RecipePagePerf":false,"StreamsTest":true,"TastePrefOverlays":true,"RdpTasteCarousel":true,"SearchABTest":false,"HubFixedGrid":false};
+    window.dataLayer={"version":"1.0","pageInstanceId":"allrecipes.com/search/results/","externalLinkId":"","page":{"pageInfo":{"pageId":"","pageName":"/search/results/","destinationUrl":"http://allrecipes.com/search/results/?wt=chicken\u0026sort=re","referringUrl":"http://allrecipes.com/","sysEnv":"RD0003FF96451D","variant":"Control","abTestName":"SearchABTest","version":"","issueDate":"08/10/2017 21:46:26","effectiveDate":"08/10/2017 21:46:26","domain":"allrecipes.com","onSiteSearchTerm":"chicken","onSiteSearchResults":"10179","parameters":{},"queryStringParameters":"wt=chicken\u0026sort=re"},"category":{"primaryCategory":"search","contentType":"search results","subContentType":"","adZone":"","adKeys":"status=visitor;oid=2CC4E750051D2174-600019100000BC94;fit=0;id=0;status=visitor;oid=2CC4E750051D2174-600019100000BC94;fit=0;h=0;kw=chicken;skw=chicken","contentSource":""},"attributes":{"contentId":"","title":"search","country":"USA"}},"event":[{"eventInfo":{"eventName":"global nav click","eventAction":"Action Complete"},"category":{"primaryCategory":"Internal Source"},"attributes":{"itemId":"global nav|search","actionSource":"global nav","clickId":"global nav|search"}}],"user":[{"analyticsId":"v1|2CC4E750051D2174-600019100000BC94","segment":{"adStatus":"visitor","visitorType":"anonymous","loginStatus":"no"},"profile":[{"profileInfo":{"profileId":"0","loginType":"None"}}],"magFollower":false}],"newsletter":{"mailingId":"","mailingName":"","mailingDate":"","mailingLinkGroup":"","mailingLinkName":""},"pageImpressionTraceList":["at-5320","hub-201","rc-16700","rc-18775","rc-19304","rc-223042","rc-23852","rc-23874","rc-24087","rc-26317","rc-45954","rc-56927","rc-64513","rc-68461","rc-70343","rc-83557","rc-8584","rc-8626","rc-8652","rc-8669","rc-89539","rc-9023","vd-1145","vd-173","vd-311","vd-4939","vd-5340"]};    var enviromentOmnitureId = 'rdirdallrecipes';
+
+    var pubsub = new Pubsub();
+
+    try {
+        var thirtyMinutesInMilliseconds = 1800000;
+        window.localStorage.setItem("CurrentUserStateModel", ''); //primarily used by private profile SPA, but pertains to current user in general
+        window.localStorage.setItem("PublicProfileStateModel", ''); //used by public profile SPA
+        window.localStorage.setItem("CurrentUserStateModelExpirationDate", Date.now() + thirtyMinutesInMilliseconds); //primarily used by private profile SPA, but pertains to current user in general
+        window.localStorage.setItem("PublicProfileStateModelExpirationDate", Date.now() + thirtyMinutesInMilliseconds); //used by public profile SPA
+    } catch(err)  {
+        var CurrentUserStateCookie ='';
+        var PublicProfileStateCookie = '';
+        document.cookie = "CurrentUserStateModel=" + CurrentUserStateCookie;
+        document.cookie = "PublicProfileStateModel=" + PublicProfileStateCookie;
+    }
+
+</script>
+<script src='http://js01.media-allrecipes.com/assets/deployables/v-1.85.0.166/analytics.bundled.js' ></script>
+<script src='http://js01.media-allrecipes.com/assets/deployables/v-1.85.0.166/main-bottom.bundled.js' ></script>
+<script src='http://css01.media-allrecipes.com/assets/deployables/v-1.85.0.166/main-bottom-templates.bundled.js' ></script>
+
+<script>angular.module('allrecipes')
+        .constant('Constant', {
+            'version': '1.85.0.166'
+        });
+</script>
+
+
+<script>
+    AR.FacebookPixel.init();
+</script>
+
+    <script src='http://js01.media-allrecipes.com/assets/deployables/v-1.85.0.166/search-results.bundled.js' ></script>
+    <script>
+        AR.FacebookPixel.searchTrack();
+    </script>
+
+
+
+    <script>!function(a,b,c){if(!a.getElementById(c)){var d=a.createElement(b),e=a.getElementsByTagName(b)[0];d.defer=!0,d.async=!0,d.type="text/javascript",d.id=c,d.src="//cdn.partners.allrecipes.com/telemetryapi/1/telemetry.js",e.parentNode.insertBefore(d,e)}}(document,"script","scoby-telemetry");</script>
+
+<script>
+
+    $(document).ready(function () {
+        pubsub.broadcast("GoogleAnalytics");
+    });
+
+    if (typeof (window.dataLayer) !== "undefined" && dataLayer) {
+        var clientAnalytics = new ClientAnalytics(window.dataLayer);
+        var comscoreShim = new ComscoreShim(window.dataLayer, pubsub);
+        var omniShim = new OmnitureShim(window.dataLayer, s, pubsub);
+        var kruxShim = new KruxShim(window.dataLayer, pubsub);
+        var gaShim = new GoogleAnalyticsShim(window.dataLayer, ga, pubsub);
+    }
+
+
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MW2LG9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','placeholderDL','GTM-MW2LG9');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript">_satellite.pageBottom(); // Initialize Adobe DTM</script>
+    <link href="http://images.media-allrecipes.com/ar/foresee/v0.7/foresee-dhtml.css" rel="stylesheet" />
+    <div id="dsapp-is-tablet"></div>
+
+<script type="text/javascript">
+var testStringVersion = 'True';
+</script>
+    <script type="text/javascript">
+    var isTablet = $ && $('#dsapp-is-tablet').css('display') === 'block';
+    if (isTablet) {
+        (function(b,r,a,n,c,h,_,s,d,k){if(!b[n]||!b[n]._q){for(;s<_.length;)c(h,_[s++]);d=r.createElement(a);d.async=1;d.src="https://cdn.branch.io/branch-latest.min.js";k=r.getElementsByTagName(a)[0];k.parentNode.insertBefore(d,k);b[n]=h}})(window,document,"script","branch",function(b,r){b[r]=function(){b._q.push([r,arguments])}},{_q:[],_v:1},"addListener applyCode banner closeBanner creditHistory credits data deepview deepviewCta first getCode init link logout redeem referrals removeListener sendSMS setBranchViewData setIdentity track validateCode".split(" "), 0);
+        branch.init('key_live_dcvcpHkps9BjZy4HCivJjpdewCg0PjvK');
+        branch.setBranchViewData({
+            data: {
+                '$deeplink_path': 'recipe/16801/old-time-chicken-divan/'
+            }});
+    }
+    </script>
+
+</body>
+</html>
