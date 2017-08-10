@@ -23,3 +23,8 @@ class SearchPageScraper {
   }
 }
 module.exports = SearchPageScraper;
+
+// after third slash
+// http://allrecpice.com/   somepath1
+// http://foobar.com/   somepathA
+// file:///    somepath

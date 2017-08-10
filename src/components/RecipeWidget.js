@@ -12,8 +12,14 @@ module.exports = function Widget(recipe) {
       recipe.ingredients.map(ingredient => {
         const oneIngredient = div(
           { class: 'carousel-item' },
-          img({ src: 'http://www.trbimg.com/img-56e088f9/turbine/la-sci-sn-raw-meat-stone-tools-evolution-20160309' }),
-          div({ style: 'text-align: center; font-size: 12px; font-weight: bold;' }, ingredient)
+          // img({ src: 'http://www.trbimg.com/img-56e088f9/turbine/la-sci-sn-raw-meat-stone-tools-evolution-20160309' }),
+          div(
+            {
+              style:
+                'text-align: center; font-size: 12px; font-weight: bold; border: 1px solid black; padding: 80px 10px 35px 10px; background-color: lightblue;'
+            },
+            ingredient
+          )
         );
         return oneIngredient;
       })

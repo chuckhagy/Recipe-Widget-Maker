@@ -70,6 +70,9 @@ h1 {
   width: 95%;
 }
 .carousel {
-  height: 200px;
+  height: 100px;
   margin: 0;
+  overflow: hidden;
+  border-top: 1px solid black;
+  z-index: 99;
 }
