@@ -108,7 +108,18 @@ h1 {
 .carousel {
   height: 100px;
   margin: 0;
-  /*overflow: hidden;*/
   border-top: 1px solid grey;
   z-index: 99;
+}
+.ingredient {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid grey;
+  padding: 60px 10px 15px 10px;
+  background-color: white;
+  box-shadow: 1px 1px 4px grey;
+}
+.ingredient:hover {
+  cursor: pointer;
 }

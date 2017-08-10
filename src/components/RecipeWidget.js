@@ -1,5 +1,4 @@
 const { div, h1, h2, ul, li, img } = require('elementx');
-
 module.exports = function Widget(recipe) {
   return div(
     { class: 'widget' },
@@ -10,21 +9,10 @@ module.exports = function Widget(recipe) {
     div(
       { class: 'carousel' },
       recipe.ingredients.map(ingredient => {
-        const oneIngredient = div(
-          { class: 'carousel-item' },
-          // img({ src: 'http://www.trbimg.com/img-56e088f9/turbine/la-sci-sn-raw-meat-stone-tools-evolution-20160309' }),
-          div(
-            {
-              style:
-                'text-align: center; font-size: 18px; font-weight: 500; border: 1px solid grey; padding: 60px 10px 15px 10px; background-color: white; box-shadow: 1px 1px 4px grey'
-            },
-            ingredient
-          )
-        );
+        const oneIngredient = div({ class: 'carousel-item' }, div({ class: 'ingredient' }, ingredient));
         return oneIngredient;
       })
     ),
-    //ul(recipe.ingredients.map(key => li(key))),
     ul({ class: 'steps' }, recipe.steps.map(key => li(key)))
   );
 };
