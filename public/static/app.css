@@ -28,12 +28,12 @@ h1 {
 .widget h1 {
   font-size: 34px;
   font-weight: 900;
-  font-family: "Coming Soon", Roboto, sans-serif;
+  font-family: Pacifico, Roboto, sans-serif;
 }
 .widget h2 {
   font-size: 24px;
   font-weight: 900;
-  font-family: "Coming Soon", Roboto, sans-serif;
+  font-family: Pacifico, Roboto, sans-serif;
 }
 
 .widget ul > li {
@@ -52,8 +52,10 @@ h1 {
   box-shadow: 2px 2px 4px grey;
 }
 .search {
-  width: 500px;
-  margin: 10px;
+  width: 90%;
+  max-width: 500px;
+  min-width: 320px;
+  margin: 10px 10px 10px 0;
   border-radius: 10px;
   text-align: center;
   display: inline-block;
@@ -67,8 +69,7 @@ h1 {
 .search label {
   font-size: 18px;
   color: rgb(32, 32, 32);
-  font-weight: bold;
-  font-family: "Coming Soon", Roboto, sans-serif;
+  font-family: Pacifico, Roboto, sans-serif;
   padding-top: 10px;
 }
 #searchInput {
@@ -89,7 +90,7 @@ h1 {
   border: 1px solid grey;
   border-radius: 7px;
   width: 100px;
-  font-weight: 900;
+  font-weight: 100;
   padding: 4px;
   background-color: lightgrey;
   font-size: 14px;
@@ -97,7 +98,7 @@ h1 {
   transition: background-color 0.5s ease;
   transition: color 0.5s ease;
   transition: width 0.5s ease;
-  font-family: "Coming Soon", Roboto, sans-serif;
+  font-family: Pacifico, Roboto, sans-serif;
 }
 .search button:hover {
   background-color: white;
