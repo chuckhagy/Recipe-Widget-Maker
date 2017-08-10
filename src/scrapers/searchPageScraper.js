@@ -1,5 +1,4 @@
 let parser = new DOMParser();
-
 class SearchPageScraper {
   constructor() {
     this.links = [];
@@ -15,17 +14,10 @@ class SearchPageScraper {
       } else {
         thisLink = topName.parentElement.href;
       }
-
       thisLink = thisLink.replace(/^[hf]?[ti]?[tl]?[pe]?s?:?\/.+?\//, '');
       console.log(thisLink);
-
       this.links.push('http://allrecipes.com/' + thisLink);
     });
   }
 }
 module.exports = SearchPageScraper;
-
-// after third slash
-// http://allrecpice.com/   somepath1
-// http://foobar.com/   somepathA
-// file:///    somepath

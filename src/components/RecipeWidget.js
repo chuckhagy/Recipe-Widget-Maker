@@ -16,7 +16,7 @@ module.exports = function Widget(recipe) {
           div(
             {
               style:
-                'text-align: center; font-size: 14px; font-weight: 500; border: 1px solid grey; padding: 80px 10px 35px 10px; background-color: white; box-shadow: 1px 1px 4px grey'
+                'text-align: center; font-size: 18px; font-weight: 500; border: 1px solid grey; padding: 60px 10px 15px 10px; background-color: white; box-shadow: 1px 1px 4px grey'
             },
             ingredient
           )

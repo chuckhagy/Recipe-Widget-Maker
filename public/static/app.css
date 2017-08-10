@@ -15,7 +15,6 @@ h1 {
 .widget {
   border-radius: 10px;
   padding: 20px;
-  font-size: 10px;
   max-width: 460px;
   margin: 2px 6px;
   box-shadow: 2px 2px 5px black;
@@ -40,7 +39,7 @@ h1 {
 .widget ul > li {
   list-style-type: circle;
   margin-left: 20px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .widget img {
