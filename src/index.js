@@ -52,16 +52,17 @@ function main() {
 
 function widgetBuilder(url) {
   let scraper = new RecipePageScraper();
-  scraper.scrape(`http://cors-bypass-proxy.axiomlogic.com/${url}`).then(function(recipe) {
+  scraper.scrape(url).then(function(recipe) {
     document.getElementById('holder').prepend(RecipeWidget(recipe));
+    $('.carousel').carousel();
+    console.log(`${recipe.ingredients.length} total ingredients`);
   });
 }
 
 function searchBuilder(search) {
   let listObject = new SearchPageScraper(); //new type of scraper
   let searchURL = 'http://allrecipes.com/search/results/?wt=' + search.split(' ').join('%') + '&sort=re';
-  listObject.scrape(`http://cors-bypass-proxy.axiomlogic.com/${searchURL}`).then(function() {
-    //console.log(listObject.links[0]);
+  listObject.scrape(`${searchURL}`).then(function() {
     widgetBuilder(listObject.links[0]);
   });
 }

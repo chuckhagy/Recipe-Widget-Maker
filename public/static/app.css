@@ -16,7 +16,7 @@ h1 {
   padding: 20px;
   font-size: 10px;
   max-width: 450px;
-  margin: 10px 10px;
+  margin: 2px 6px;
   box-shadow: 2px 2px 5px grey;
   border: 1px solid grey;
   background-color: white;
@@ -39,6 +39,7 @@ h1 {
 .widget ul > li {
   list-style-type: circle;
   margin-left: 20px;
+  font-size: 11px;
 }
 
 .widget img {
@@ -67,4 +68,8 @@ h1 {
   margin: 0 auto;
   padding: 0;
   width: 95%;
+}
+.carousel {
+  height: 200px;
+  margin: 0;
 }
