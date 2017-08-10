@@ -18,3 +18,4 @@ If you're not sure which recipe you want, you can search using key terms like "s
 ## Future Goals
 - Add images of each ingredient to the carousel using some kind of publicly available API
 - Add more nutritional information / an estimation of the overall healthiness of each recipe
+- Add caching logic to avoid repetitive scraping
