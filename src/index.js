@@ -52,7 +52,7 @@ function main() {
 
 function widgetBuilder(url) {
   let scraper = new RecipePageScraper();
-  scraper.scrape(url).then(function(recipe) {
+  scraper.scrape(`http://cors-bypass-proxy.axiomlogic.com/${url}`).then(function(recipe) {
     document.getElementById('holder').prepend(RecipeWidget(recipe));
     $('.carousel').carousel();
     console.log(`${recipe.ingredients.length} total ingredients`);
@@ -62,7 +62,7 @@ function widgetBuilder(url) {
 function searchBuilder(search) {
   let listObject = new SearchPageScraper();
   let searchURL = 'http://allrecipes.com/search/results/?wt=' + search.split(' ').join('%') + '&sort=re';
-  listObject.scrape(`${searchURL}`).then(function() {
+  listObject.scrape(`http://cors-bypass-proxy.axiomlogic.com/${searchURL}`).then(function() {
     widgetBuilder(listObject.links[0]);
   });
 }
