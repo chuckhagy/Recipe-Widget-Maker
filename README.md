@@ -1,9 +1,9 @@
 # Recipe Scraper
 A project that scrapes AllRecipes.com to create concise, ad-free widgets with only the necessary information.
 
-![screenshot](./README/screenshot.png?raw=true "Optional Title")
+![screenshot](./README/screenshot.png?raw=true)
 
-# Links
+## Links
 http://recipewidgets.surge.sh/
 
 For non-proxy scraping, use these example links:
