@@ -9,7 +9,10 @@ module.exports = function Widget(recipe) {
     div(
       { class: 'carousel' },
       recipe.ingredients.map(ingredient => {
-        const oneIngredient = div({ class: 'carousel-item' }, div({ class: 'ingredient' }, ingredient));
+        const oneIngredient = div(
+          { class: 'carousel-item' },
+          div({ class: 'ingredient' }, ingredient)
+        );
         return oneIngredient;
       })
     ),
